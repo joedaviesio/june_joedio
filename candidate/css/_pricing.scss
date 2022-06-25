@@ -1,0 +1,154 @@
+.pricing_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(20, 228, 193, 0.605), #e5ad48);
+}
+
+
+.title_container {
+    .title {
+        font-family: 'vag-rundschrift-d', sans-serif;
+        -webkit-text-stroke: 0.25px black;
+        margin-top: 22px;
+        margin-bottom: 22px;
+
+        font-weight: 400;
+        
+        font-style: normal;
+        font-size: 3rem;
+        color: #685a32;
+        text-align: center;
+        @media (max-width: 400px) 
+        {
+    
+        font-size: 2rem;
+    
+        }
+        
+    }
+}
+
+
+.sub_title_container {
+    .sub_title {
+        font-family: $secondaryfont;
+        font-size: 1.5rem;
+    
+        color: rgb(64, 64, 64);
+        
+    }
+}
+
+.text_container_x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(7, 4, 5, 0.783);
+
+    border-radius: 22px;
+    .text {
+        width: clamp(50vw, 800px, 90vw);
+        color: $text_color;
+        font-family: $text_font;
+        text-align: justify;
+        padding: clamp(20px, 10px, 5%);
+        font-size: $text_size;
+
+    }
+}
+
+.options_wide {
+    width: clamp(50vw, 800px, 90vw);
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(7, 4, 5, 0.526);
+    border-radius: 22px;
+    justify-content: space-around;
+    @media (max-width: 500px) 
+    {
+
+    flex-direction: column;
+
+    }
+
+    .option_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: 33.334%;
+    
+        background-color: #a74c9c62;
+        border-radius: 50px;
+        border: #93c83e solid 1px;
+
+        @media (max-width: 500px) 
+        {
+    
+        width: 100%;
+    
+        }
+        
+    }
+
+}
+
+.option_title {
+    color: white;
+    font-family: $secondaryfont;
+    font-size: 2rem;
+    @media (max-width: 400px) 
+    {
+
+    font-size: 1.5rem;
+
+    }
+    
+}
+
+.option_text {
+    color: white;
+    font-family: $secondaryfont;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.i {
+    color: #93c83e;
+    padding-top: 5px;
+}
+
+#dynamic {
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.text_container_secondary {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text_container_y {
+
+
+        background-color: rgba(7, 4, 5, 0.783);
+    
+        border-radius: 22px;
+        .text {
+            justify-self: center;
+            width: clamp(50vw, 800px, 90vw);
+            color: $text_color;
+            font-family: $text_font;
+            text-align: center;
+            padding: clamp(20px, 10px, 5%);
+            font-size: $text_size;
+    
+        }
+    }
+
+}
