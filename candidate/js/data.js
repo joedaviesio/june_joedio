@@ -43,7 +43,7 @@ let para = {
 
     trytasee_p: "► Trytasee is a techno music video and one half of the 'she my x' ep with both extended tracks to be released on spotify in August.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    web_p: "► Web design portfolio. <a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% pure ev<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://www.joedaviesforecan.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>Joe Davies for ECAN<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 cryptos io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>joedavies.io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
+    web_p: "► Web design portfolio. <a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% pure ev<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://www.joedaviesforecan.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>Joe Davies for ECAN<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>joedavies.io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
     
 
 
@@ -64,7 +64,7 @@ let list_icon = {
 
 let list_1 = {
     title: 'web design',
-    text: 'My web design explores the space between technology and art. I have qualifications in user experience design and can freelance websites or work with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and quality media.',
+    text: 'My web design explores the space between technology and art. I can freelance websites or work with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and quality media.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -169,7 +169,7 @@ let blog_7 = {
 
 let blog_9 = {
     title: 'photo of the week',
-    text: 'god mountain - taken 10 kilometres south of lake tekapo.',
+    text: 'God Mountain - taken 10 kilometres south of lake Tekapo.',
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/2021-05-10-god-mountain.jpg',
     icon_type: blog_icon.type, 
