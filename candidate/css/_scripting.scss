@@ -24,7 +24,7 @@
 
         .prime_header {
             font-family: $fourthfont;
-
+            line-height: 1.4;
 
             display: flex;
             align-items: center;
@@ -67,6 +67,8 @@
         color: $sub_header_color;
         font-family: $sub_header_font;
         font-size: $sub_header_font_size;
+        font-weight: lighter;
+        line-height: 1.3;
         font-style: normal;
         width: 100%;
         border-radius: 22px;
@@ -165,6 +167,8 @@
         text-align: justify;
         padding: clamp(20px, 10px, 5%);
         font-size: $text_size;
+        font-weight: lighter;
+        line-height: 1.3;
 
     }
 }
@@ -202,6 +206,8 @@
                 color: $dropdown_text_color !important;
                 padding: 10px;
                 text-align: center;
+                font-weight: lighter;
+                line-height: 1.3;
 
   
             }
@@ -272,6 +278,8 @@
             font-size: $list_text_font_size;
             background-color: $list_text_background_color;
             border-radius: 22px;
+            font-weight: lighter;
+            line-height: 1.3;
 
         }
     }
@@ -305,6 +313,8 @@
                     border-radius: 50px;
                     font-size: $list_header_font_size;
                     background-color: rgba(255, 255, 255, 0.652);
+                    font-weight: lighter;
+                    line-height: 1.3;
                 }
             }
 
@@ -318,6 +328,8 @@
             font-size: $list_text_font_size;
             background-color: $list_text_background_color;
             border-radius: 22px;
+            font-weight: lighter;
+            line-height: 1.3;
    
 
 
@@ -465,6 +477,7 @@
             font-size: $third_header_font_size;
             color: black;
             font-weight: lighter;
+            line-height: 1.3;
             padding: 5px;
  
 
@@ -589,7 +602,7 @@
 
         font-size: 1.4rem;
         border-radius: 30px;
-        box-shadow: 5px 5px 5px white;
+        box-shadow: 5px 5px 5px #ffc101;
         cursor: pointer;
         @media (max-width: 400px) 
         {

@@ -1,7 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url("https://use.typekit.net/ymd2hhv.css");
-@import url("https://use.typekit.net/gcv6ikt.css");
+@import url("https://use.typekit.net/veb3jxj.css");
 *,
 ::after,
 ::before {
@@ -18,7 +17,7 @@ a {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(255, 255, 255, 0.738);
+  color: white;
   opacity: 1;
   /* Firefox */
 }
@@ -42,6 +41,7 @@ a {
 
 .prime_header_container .prime_header {
   font-family: "ohm-bold", "Open Sans";
+  line-height: 1.4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,8 +74,10 @@ a {
   display: flex;
   justify-content: center;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 1.4rem;
+  font-weight: lighter;
+  line-height: 1.3;
   font-style: normal;
   width: 100%;
   border-radius: 22px;
@@ -149,10 +151,12 @@ a {
 .text_container .text {
   width: clamp(50vw, 800px, 90vw);
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   text-align: justify;
   padding: clamp(20px, 10px, 5%);
   font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 .dropdown_container_wide {
@@ -185,10 +189,12 @@ a {
 
 .dropdown_container_wide .dropdown_container .dropdown_text {
   font-size: 1.4rem;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   color: white !important;
   padding: 10px;
   text-align: center;
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 .modalon {
@@ -231,7 +237,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   color: #3f3247;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-weight: bolder;
   border-radius: 50px;
   font-size: 1.25rem;
@@ -249,10 +255,12 @@ a {
   text-align: justify;
   padding: 12px;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 1rem;
   background-color: rgba(191, 96, 107, 0.518);
   border-radius: 22px;
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 .blog_wide {
@@ -276,10 +284,12 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   color: #3f3247;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   border-radius: 50px;
   font-size: 1.25rem;
   background-color: rgba(255, 255, 255, 0.652);
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 .blog_wide .blog_component .blog_text {
@@ -287,10 +297,12 @@ a {
   text-align: justify;
   padding: 12px;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 1rem;
   background-color: rgba(191, 96, 107, 0.518);
   border-radius: 22px;
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 .blog_wide .blog_component .blog_img_container .blog_img {
@@ -334,7 +346,7 @@ a {
 }
 
 .input_container .fieldset .input {
-  font-family: "hero-new", "Open Sans", "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans", "new-hero", "Open Sans";
   width: clamp(50vw, 800px, 90vw);
   color: white;
   font-size: 1rem;
@@ -359,7 +371,7 @@ a {
   border: none;
   background-color: #f36e62;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 2rem;
   border-radius: 30px;
   display: flex;
@@ -388,7 +400,7 @@ a {
 .webappby {
   color: white;
   width: 100%;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   align-self: baseline;
   cursor: pointer;
   background-color: gray;
@@ -408,10 +420,11 @@ a {
 }
 
 .third_header_container .third_header {
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 2rem;
   color: black;
   font-weight: lighter;
+  line-height: 1.3;
   padding: 5px;
 }
 
@@ -448,7 +461,7 @@ a {
   border: none;
   background-color: #f36e62;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 2rem;
   border-radius: 30px;
 }
@@ -485,18 +498,18 @@ a {
 }
 
 .contact_header {
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 2rem;
 }
 
 .contact_text {
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 1.2rem;
 }
 
 .autho {
   color: #acacac;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 0.8rem;
 }
 
@@ -513,11 +526,11 @@ a {
   padding: 8px;
   background-color: #f36e62;
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-weight: bolder;
   font-size: 1.4rem;
   border-radius: 30px;
-  box-shadow: 5px 5px 5px white;
+  box-shadow: 5px 5px 5px #ffc101;
   cursor: pointer;
 }
 
@@ -559,7 +572,7 @@ a {
 }
 
 .sub_title_container .sub_title {
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 1.5rem;
   color: #404040;
 }
@@ -576,7 +589,7 @@ a {
 .text_container_x .text {
   width: clamp(50vw, 800px, 90vw);
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   text-align: justify;
   padding: clamp(20px, 10px, 5%);
   font-size: 1rem;
@@ -617,7 +630,7 @@ a {
 
 .option_title {
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   font-size: 2rem;
 }
 
@@ -629,7 +642,7 @@ a {
 
 .option_text {
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   padding: 20px;
   text-align: center;
 }
@@ -659,7 +672,7 @@ a {
   justify-self: center;
   width: clamp(50vw, 800px, 90vw);
   color: white;
-  font-family: "hero-new", "Open Sans";
+  font-family: "new-hero", "Open Sans";
   text-align: center;
   padding: clamp(20px, 10px, 5%);
   font-size: 1rem;

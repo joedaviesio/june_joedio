@@ -16,8 +16,8 @@ $secondaryred: #f36e62;
 $s: rgba(191, 96, 107, 0.518);
 $secondaed: #c05147;
 
-$primaryfont: 'hero-new', 'Open Sans';
-$secondaryfont:  'hero-new', 'Open Sans';
+$primaryfont: 'new-hero', 'Open Sans';
+$secondaryfont:  'new-hero', 'Open Sans';
 $thirdfont: 'quasimoda', 'Open Sans';
 $fourthfont: 'ohm-bold', 'Open Sans';
 
@@ -98,7 +98,7 @@ a {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(255, 255, 255, 0.738);
+  color: rgb(255, 255, 255);
   opacity: 1; /* Firefox */
 }
 
