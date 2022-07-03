@@ -43,7 +43,7 @@ let para = {
 
     trytasee_p: "► Trytasee is a techno music video and one half of the 'she my x' ep with both extended tracks to be released on spotify in August.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    web_p: "► Web design portfolio. <a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% pure ev<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://www.joedaviesforecan.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>Joe Davies for ECAN<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>joedavies.io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joe.davies.yoobeestudent.net/wordpress_3/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>wordpress version<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
+    web_p: "► Web design portfolio. <a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% pure ev<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://www.joedaviesforecan.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>Joe Davies for ECAN<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>joedavies.io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 cryptos (desktop)<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
     
 
 
@@ -66,14 +66,14 @@ let list_1 = {
     title: 'web design',
     text: 'My web design explores the space between technology and art. I can freelance websites or work with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and quality media.',
     icon_type: list_icon.type, 
-    icon_title: list_icon.title,
+    icon_title: 'fa-sliders',
     icon_size: list_icon.size
 }
 let list_2 = {
     title: 'audio',
     text: "My audio services are focussed on the production of music or recorded audio for content and other purposes. Whether that's an instrumental track for a digital video, or the audio for a podcast you’d like to launch, I am flexible and have the hardware and software appropriate to produce high quality phonic experiences.",
     icon_type: list_icon.type, 
-    icon_title: list_icon.title,
+    icon_title: 'fa-headphones-simple',
     icon_size: list_icon.size
 }
 
@@ -89,7 +89,7 @@ let list_4 = {
     title: 'video',
     text: 'My approach to videography - quality video and shot composition engineered toward simple themes. I can lead production from start to finish, beginning with explorations of what the concept is and what it wants to achieve. I use design tools, market strategy and technology to develop what content you want to create and the method of its release and access. ',
     icon_type: list_icon.type, 
-    icon_title: list_icon.title,
+    icon_title: 'fa-circle-play',
     icon_size: list_icon.size
 }
 let list_5 = {
@@ -168,10 +168,10 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: 'photo of the week',
-    text: 'God Mountain - taken 10 kilometres south of lake Tekapo.',
+    title: ' 03 July 22:11 // photo of the week',
+    text: "Foley's Bush. (29/12/2021)",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2021-05-10-god-mountain.jpg',
+    blog_img_src: 'candidate/src/img/blog/2021-12-29-foleys-bush.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
