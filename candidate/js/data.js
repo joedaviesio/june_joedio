@@ -1,5 +1,5 @@
 let titles = {
-    prime_header: 'joedavies.io',
+    prime_header: 'joe davies .io',
     slogan: "audio, video & design.",
     sub1: 'news',
     sub2: 'policy',
