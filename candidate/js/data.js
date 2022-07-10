@@ -168,10 +168,10 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 03 July 22:11 // photo of the week',
-    text: "Foley's Bush. (29/12/2021)",
+    title: ' 10 July 21:17 // weekly photo',
+    text: "'Footsteps' (17/08/2021)",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2021-12-29-foleys-bush.jpg',
+    blog_img_src: 'candidate/src/img/blog/2021-08-17-footsteps.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
