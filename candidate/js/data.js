@@ -168,10 +168,10 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 10 July 21:17 // weekly photo',
-    text: "'Footsteps' (17/08/2021)",
+    title: ' 28 July 11:52 // weekly photo',
+    text: "'Campaign' (26/07/2022)- Credit, Alister Winter.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2021-08-17-footsteps.jpg',
+    blog_img_src: 'candidate/src/img/blog/joe_maps.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
