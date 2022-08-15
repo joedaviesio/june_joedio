@@ -168,10 +168,10 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 28 July 11:52 // weekly photo',
-    text: "'Campaign' (26/07/2022)- Credit, Alister Winter.",
+    title: ' 15 August 17:44 // weekly photo',
+    text: "'Arthurs Pass Bush' (08/01/2022)",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/joe_maps.jpg',
+    blog_img_src: 'candidate/src/img/blog/2022-01-08-bushside.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
