@@ -168,29 +168,37 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 15 August 17:44 // weekly photo',
-    text: "'Arthurs Pass Bush' (08/01/2022)",
+    title: ' 23 August 18:07',
+    text: "Photo of the week <br>Mt Somers north facing.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2022-01-08-bushside.JPG',
+    blog_img_src: 'candidate/src/img/blog/2021-09-11-mt-somers-north-facing-b.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '24 June 09:54',
-    text: "Very happy to have released 'Trytasee' a techno tune with a mellow port hills video. I am going to release the second half of the ep 'she my x' in the coming weeks as well as putting both extended versions onto spotify. click <a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'>HERE</a> to view.",
-    blog_img_boolean: 'true',
+    title: '23 August 18:05',
+    text: "Quote of the week <br> “In order to improve your game, you must study the endgame before anything else; for whereas the endings can be studied and mastered by themselves, the middlegame and the opening must be studied in relation to the endgame.” Jose Raul Capablanca.",
+    blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
     icon_size: blog_icon.size
 }
 
+let blog_11 = {
+    title: '23 August 18:12',
+    text: "Movie of the week <br> Taxi Driver. Martin Scorcese, 1976.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/de_niro.jpg',
+    icon_type: photo_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-
-let blog_total = [blog_10, blog_9, blog_7];
+let blog_total = [blog_11, blog_9, blog_10, blog_7];
 
 
 let youtube_icon = {
