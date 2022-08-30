@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 23 August 18:07',
-    text: "Photo of the week <br>Mt Somers north facing.",
+    title: ' 30 August 23:14',
+    text: "Photo of the week <br>South New Brighton western view",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2021-09-11-mt-somers-north-facing-b.jpg',
+    blog_img_src: 'candidate/src/img/blog/2022_08_30_snb_sunset.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '23 August 18:05',
-    text: "Quote of the week <br> “In order to improve your game, you must study the endgame before anything else; for whereas the endings can be studied and mastered by themselves, the middlegame and the opening must be studied in relation to the endgame.” Jose Raul Capablanca.",
+    title: '30 August 23:16',
+    text: "Quote of the week <br> “Everyone should learn how to program a computer because it teaches you how to think.” Steve Jobs.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '23 August 18:12',
-    text: "Movie of the week <br> Taxi Driver. Martin Scorcese, 1976.",
+    title: '30 August 23:18',
+    text: "Movie of the week <br> ENTER THE VOID. Gaspard Noe, 2009.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/de_niro.jpg',
+    blog_img_src: 'candidate/src/img/blog/enter_void.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
