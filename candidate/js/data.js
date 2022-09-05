@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: ' 30 August 23:14',
-    text: "Photo of the week <br>South New Brighton western view",
+    title: '06 September 11:53',
+    text: "Photo of the week <br>Campaign; part one. (view <a href='https://fb.watch/fmhluTlqae/'>HERE)</a>",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/2022_08_30_snb_sunset.jpg',
+    blog_img_src: 'candidate/src/img/blog/campaign.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '30 August 23:16',
-    text: "Quote of the week <br> “Everyone should learn how to program a computer because it teaches you how to think.” Steve Jobs.",
+    title: '06 September 11:48',
+    text: "Quote of the week <br> “You cannot un-educate the person who has learned to read. You cannot humiliate the person who feels pride. You cannot oppress the people who are not afraid anymore.' Cesar Chavez",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '30 August 23:18',
-    text: "Movie of the week <br> ENTER THE VOID. Gaspard Noe, 2009.",
+    title: '06 September 11:59',
+    text: "Movie of the week <br> GATTACA. Andrew Niccol, 1997.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/enter_void.jpg',
+    blog_img_src: 'candidate/src/img/blog/gattaca_1997.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
