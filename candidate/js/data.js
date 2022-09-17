@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '06 September 11:53',
-    text: "Photo of the week <br>Campaign; part one. (view <a href='https://fb.watch/fmhluTlqae/'>HERE)</a>",
+    title: '18 September 10:04',
+    text: "Photo of the week <br>Titanic; construction in gantry, 1909-11. ",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/campaign.jpg',
+    blog_img_src: 'candidate/src/img/blog/titanic_gantry.png',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '06 September 11:48',
-    text: "Quote of the week <br> “You cannot un-educate the person who has learned to read. You cannot humiliate the person who feels pride. You cannot oppress the people who are not afraid anymore.' Cesar Chavez",
+    title: '18 September 09:50',
+    text: "Perhaps the most extreme example of the deliberate melding of the artist and the work is to be found in New Zealand; the Wizard has established the personage he has invented to the point where his original identity is now completely effaced. The most interesting aspect of the Wizard is the use to which he puts this carefully constructed identity. The actions of his invented personage are a sharp satire on established ideas of normality.' E. Lucie-Smith.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '06 September 11:59',
-    text: "Movie of the week <br> GATTACA. Andrew Niccol, 1997.",
+    title: '18 September 09:55',
+    text: "Movie of the week <br> TITANIC. James Cameron, 1997.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/gattaca_1997.jpg',
+    blog_img_src: 'candidate/src/img/blog/titanic.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
