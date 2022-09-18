@@ -179,7 +179,7 @@ let blog_9 = {
 
 let blog_10 = {
     title: '18 September 09:50',
-    text: "Perhaps the most extreme example of the deliberate melding of the artist and the work is to be found in New Zealand; the Wizard has established the personage he has invented to the point where his original identity is now completely effaced. The most interesting aspect of the Wizard is the use to which he puts this carefully constructed identity. The actions of his invented personage are a sharp satire on established ideas of normality.' E. Lucie-Smith.",
+    text: "'Perhaps the most extreme example of the deliberate melding of the artist and the work is to be found in New Zealand; the Wizard has established the personage he has invented to the point where his original identity is now completely effaced. The most interesting aspect of the Wizard is the use to which he puts this carefully constructed identity. The actions of his invented personage are a sharp satire on established ideas of normality.' E. Lucie-Smith.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
