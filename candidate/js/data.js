@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '18 September 10:04',
-    text: "Photo of the week <br>Titanic; construction in gantry, 1909-11. ",
+    title: '28 September 19:18',
+    text: "Photo of the week <br>British calendar, 1851, gilt bronze and malachite; Metropolitan Museum of Art.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/titanic_gantry.png',
+    blog_img_src: 'candidate/src/img/blog/british_calendar.png',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '18 September 09:50',
-    text: "'Perhaps the most extreme example of the deliberate melding of the artist and the work is to be found in New Zealand; the Wizard has established the personage he has invented to the point where his original identity is now completely effaced. The most interesting aspect of the Wizard is the use to which he puts this carefully constructed identity. The actions of his invented personage are a sharp satire on established ideas of normality.' E. Lucie-Smith.",
+    title: '28 September 19:18',
+    text: "'King Charles has visited New Zealand many times. He's well known in New Zealand. He shares many passions and interests that New Zealanders do. I think that means that that relationship already exists. It’s a transition but it's not a jarring transition for New Zealand.' Jacinda Ardern.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '18 September 09:55',
-    text: "Movie of the week <br> TITANIC. James Cameron, 1997.",
+    title: '28 September 19:18',
+    text: "Movie of the week <br> ONCE WERE WARRIORS. Lee Tamahori, 1994.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/titanic.jpg',
+    blog_img_src: 'candidate/src/img/blog/once_were_warriors.png',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
