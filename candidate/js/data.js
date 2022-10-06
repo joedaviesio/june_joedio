@@ -43,7 +43,7 @@ let para = {
 
     trytasee_p: "► Trytasee is a techno music video and one half of the 'she my x' ep with both extended tracks to be released on spotify in August.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    web_p: "► Web design portfolio. <a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% pure ev<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://www.joedaviesforecan.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>Joe Davies for ECAN<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>joedavies.io<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 cryptos (desktop)<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
+    web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://joedavies.io/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
     
 
 
@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '28 September 19:18',
-    text: "Photo of the week <br>British calendar, 1851, gilt bronze and malachite; Metropolitan Museum of Art.",
+    title: '06 October 19:44',
+    text: "Photo of the week <br>The Monument, the prominent peak to the east of Mt Herbert, the Peninsulas tallest summit. It was very still up there and there were few people out; a cyclist and a car or two on Summit Rd.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/british_calendar.png',
+    blog_img_src: 'candidate/src/img/blog/monument.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '28 September 19:18',
-    text: "'King Charles has visited New Zealand many times. He's well known in New Zealand. He shares many passions and interests that New Zealanders do. I think that means that that relationship already exists. It’s a transition but it's not a jarring transition for New Zealand.' Jacinda Ardern.",
+    title: '06 October 19:44',
+    text: 'The strongest tree in the forest is the tree that bends with the wind.',
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,17 +188,17 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '28 September 19:18',
-    text: "Movie of the week <br> ONCE WERE WARRIORS. Lee Tamahori, 1994.",
+    title: '06 October 19:44',
+    text: "Movie of the week <br> CHE; PART ONE. Steven Soderbergh, 2008.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/once_were_warriors.png',
+    blog_img_src: 'candidate/src/img/blog/principal-chebenicio.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 
-let blog_total = [blog_11, blog_9, blog_10, blog_7];
+let blog_total = [blog_11, blog_9, blog_10];
 
 
 let youtube_icon = {
