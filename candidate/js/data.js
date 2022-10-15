@@ -49,7 +49,7 @@ let para = {
 
 }
 
-let dropdown_options = ["<a href=''>home</a>", "news", "projects", "design", "socials", "contact", "<a href='https://www.joedaviesforecan.com/'>ecan campaign</a>"];
+let dropdown_options = ["<a href=''>home</a>", "news", "projects", "design", "socials", "contact", "<a href='https://www.councillorjoedavies.com/'>Councillor Joe Davies</a>"];
 
 let sub_header_options = ["news", "projects", "design"];
 
@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '06 October 19:44',
-    text: "Photo of the week <br>The Monument, the prominent peak to the east of Mt Herbert, the Peninsulas tallest summit. It was very still up there and there were few people out; a cyclist and a car or two on Summit Rd.",
+    title: '15 October 16:17',
+    text: "Photo of the Week <br>Caracas. Open src; Wikimedia Commons.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/monument.jpg',
+    blog_img_src: 'candidate/src/img/blog/caracas.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '06 October 19:44',
-    text: 'The strongest tree in the forest is the tree that bends with the wind.',
+    title: '15 October 16:23',
+    text: 'Quote of the Week <br> "But it is clear that parts of our mini budget went further and faster than markets were expecting. So the way we are delivering our mission right now has to change. We need to act now to reassure the markets of our fiscal discipline." Liz Truss, 2022-10-14; PM press conference opening remarks.',
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '06 October 19:44',
-    text: "Movie of the week <br> CHE; PART ONE. Steven Soderbergh, 2008.",
+    title: '15 October 16:15',
+    text: "Movie of the Week <br> TRON: LEGACY. Joseph Kosinski, 2010.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/principal-chebenicio.jpg',
+    blog_img_src: 'candidate/src/img/blog/tron.png',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
