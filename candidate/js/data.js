@@ -230,7 +230,7 @@ let soundcloud_icon = {
 }
 
 let socials_1 = {
-    href: "https://www.facebook.com/joedaviesforecan",
+    href: "https://www.facebook.com/councillorjoedavies",
 
     icon_type: fb_icon.type, 
     icon_title: fb_icon.title,
