@@ -168,18 +168,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '15 October 16:17',
-    text: "Photo of the Week <br>Caracas. Open src; Wikimedia Commons.",
+    title: '28 October 09:28',
+    text: "Photo of the Week <br>Inauguration.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/caracas.jpg',
+    blog_img_src: 'candidate/src/img/blog/genevieve.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '15 October 16:23',
-    text: 'Quote of the Week <br> "But it is clear that parts of our mini budget went further and faster than markets were expecting. So the way we are delivering our mission right now has to change. We need to act now to reassure the markets of our fiscal discipline." Liz Truss, 2022-10-14; PM press conference opening remarks.',
+    title: '28 October 09:16',
+    text: "Quote of the Week <br>'If you've got the cards; play them, don't allow a weaker hand to set the agenda.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +188,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '15 October 16:15',
-    text: "Movie of the Week <br> TRON: LEGACY. Joseph Kosinski, 2010.",
+    title: '28 October 09:24',
+    text: "Movie of the Week <br> The New Land, 1972. Jan Troell.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/tron.png',
+    blog_img_src: 'candidate/src/img/blog/swedish_film.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
