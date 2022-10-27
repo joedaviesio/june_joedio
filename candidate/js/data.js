@@ -168,7 +168,7 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '28 October 09:28',
+    title: '28 October 09:18',
     text: "Photo of the Week <br>Inauguration.",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/genevieve.JPG',
