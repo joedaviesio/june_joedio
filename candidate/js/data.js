@@ -27,6 +27,8 @@ let photos = {
     hip_hop: 'candidate/src/img/bio/hip_hop_instru-01.png',
     perry: 'candidate/src/img/bio/2021-12-26-perry-mix-c.jpg',
     trytasee: 'candidate/src/img/bio/trytasee.jpg',
+    web: 'candidate/src/img/bio/code.png',
+    she_my_ex: 'candidate/src/img/blog/she_my_x_cover.jpg',
     web: 'candidate/src/img/bio/code.png'
 
 }
@@ -41,9 +43,11 @@ let para = {
 
     hip_hop_p: "► An open source hip hop instrumental album for users to enjoy and use in their own content.<a href='https://distrokid.com/hyperfollow/joedavies2/hip-hop-instrumentals'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a> ",
 
-    trytasee_p: "► Trytasee is a techno music video and one half of the 'she my x' ep with both extended tracks to be released on spotify in August.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    trytasee_p: "► Trytasee is a techno music video and one half of the 'She, My Ex.' ep with both extended tracks to be released on spotify in November.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
+    web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+
+    she_my_ex_p: "►'She, My Ex' is a techno music video filmed in Hanmer Springs and the second half of the 'She, My Ex.' EP. Full version of the EP is available on Spotify.<a href='https://www.youtube.com/watch?v=N2ee-Fg0OBQ'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
     
 
 
@@ -168,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '28 October 09:18',
-    text: "Photo of the Week <br>Inauguration.",
+    title: '04 November 09:49',
+    text: "Photo of the Week <br>Louisiana State Capitol, 1932.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/genevieve.JPG',
+    blog_img_src: 'candidate/src/img/blog/louisiana_state_capital_32.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '28 October 09:16',
-    text: "Quote of the Week <br>'If you've got the cards; play them, don't allow a weaker hand to set the agenda.'",
+    title: '04 November 09:48',
+    text: "Quote of the Week <br>'Horses for courses.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -188,10 +192,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '28 October 09:24',
-    text: "Movie of the Week <br> The New Land, 1972. Jan Troell.",
+    title: '04 November 09:56',
+    text: "Movie of the Week <br> Cold War. Pawel Pawlikowski, 2018.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/swedish_film.jpg',
+    blog_img_src: 'candidate/src/img/blog/cold_war.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size

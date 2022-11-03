@@ -68,6 +68,8 @@ function sub1_display(){
     comp09.innerHTML = '';
     comp10.innerHTML = '';
     comp11.innerHTML = '';
+    img1_total(comp04, photos.she_my_ex);
+    text_total(comp04, para.she_my_ex_p);
     img1_total(comp05, photos.bp);
     text_total(comp05, para.blondinis_p);
     img1_total(comp06, photos.perry);
