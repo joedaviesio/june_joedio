@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '04 November 09:49',
-    text: "Photo of the Week <br>Louisiana State Capitol, 1932.",
+    title: '19 November 17:13',
+    text: "Photo of the Week <br>NASA ROBOT, Image R2 Gallery.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/louisiana_state_capital_32.jpg',
+    blog_img_src: 'candidate/src/img/blog/nasa.png',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '04 November 09:48',
-    text: "Quote of the Week <br>'Horses for courses.'",
+    title: '19 November 17:14',
+    text: "Quote of the Week <br>'I might not be everyone’s cup of tea but I may be someone’s shot of vodka.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -192,10 +192,10 @@ let blog_10 = {
 }
 
 let blog_11 = {
-    title: '04 November 09:56',
-    text: "Movie of the Week <br> Cold War. Pawel Pawlikowski, 2018.",
+    title: '19 November 17:18',
+    text: "Movie of the Week <br> Vice. Adam McKay, 2018.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/cold_war.jpg',
+    blog_img_src: 'candidate/src/img/blog/vice-christian-bale.jpg',
     icon_type: photo_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
