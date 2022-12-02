@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '19 November 17:13',
-    text: "Photo of the Week <br>NASA ROBOT, Image R2 Gallery.",
+    title: '02 December 17:58',
+    text: "Photo of the Week <br>Miners' village in Glendalough.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/nasa.png',
+    blog_img_src: 'candidate/src/img/blog/glendalough.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '19 November 17:14',
-    text: "Quote of the Week <br>'I might not be everyone’s cup of tea but I may be someone’s shot of vodka.'",
+    title: '02 December 17:52',
+    text: "Quote of the Week <br>'In life; one gets what one negotiates, not what one deserves.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -191,18 +191,20 @@ let blog_10 = {
     icon_size: blog_icon.size
 }
 
-let blog_11 = {
-    title: '19 November 17:18',
-    text: "Movie of the Week <br> Vice. Adam McKay, 2018.",
-    blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/vice-christian-bale.jpg',
-    icon_type: photo_icon.type, 
-    icon_title: photo_icon.title,
-    icon_size: blog_icon.size
-}
+// let blog_11 = {
+//     title: '19 November 17:18',
+//     text: "Movie of the Week <br> Vice. Adam McKay, 2018.",
+//     blog_img_boolean: 'true',
+//     blog_img_src: 'candidate/src/img/blog/vice-christian-bale.jpg',
+//     icon_type: photo_icon.type, 
+//     icon_title: photo_icon.title,
+//     icon_size: blog_icon.size
+// }
 
 
-let blog_total = [blog_11, blog_9, blog_10];
+// let blog_total = [blog_11, blog_9, blog_10];
+
+let blog_total = [blog_9, blog_10];
 
 
 let youtube_icon = {
