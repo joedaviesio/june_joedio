@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '02 December 17:58',
-    text: "Photo of the Week <br>Miners' village in Glendalough.",
+    title: '12 December 10:23',
+    text: "Photo of the Week <br>Morning Light.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/glendalough.jpg',
+    blog_img_src: 'candidate/src/img/blog/morning_light.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '02 December 17:52',
-    text: "Quote of the Week <br>'In life; one gets what one negotiates, not what one deserves.'",
+    title: '12 December 10:24',
+    text: "Quote of the Week <br>'Shooting fish in a barrel.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
