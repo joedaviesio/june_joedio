@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '12 December 10:23',
-    text: "Photo of the Week <br>Morning Light.",
+    title: '05 January 16:07 2023',
+    text: "Photo of the Week <br>TITHb2b. Coming soon.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/morning_light.JPG',
+    blog_img_src: 'candidate/src/img/blog/b2btith.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '12 December 10:24',
-    text: "Quote of the Week <br>'Shooting fish in a barrel.'",
+    title: '05 January 16:13 2023',
+    text: "Quote of the Week <br>'Buy it, use it, break it, fix it, trash it, change it, mail, upgrade it. Charge it, point it, zoom it, press it, snap it, work it, quick erase it. Write it, cut it, paste it, save it, load it, check it, quick rewrite it. Plug it, play it, burn it, rip it, Drag and drop it, zip – unzip it' DAFT PUNK, Technologic.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -267,7 +267,15 @@ let socials_4 = {
     icon_size: youtube_icon.size
 }
 
-let socials_total = [socials_1, socials_2, socials_3, socials_4];
+let socials_5 = {
+    href: "https://www.instagram.com/pasadena.blanca/",
+
+    icon_type: youtube_icon.type, 
+    icon_title: 'fa-instagram',
+    icon_size: youtube_icon.size
+}
+
+let socials_total = [socials_1, socials_2, socials_3, socials_4, socials_5];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
