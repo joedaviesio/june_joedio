@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '05 January 16:07 2023',
-    text: "Photo of the Week <br>TITHb2b. Coming soon.",
+    title: '20 January 23:08 2023',
+    text: "Photo of the Week <br>Greywacke Catherdral.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/b2btith.JPG',
+    blog_img_src: 'candidate/src/img/blog/rugged.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '05 January 16:13 2023',
-    text: "Quote of the Week <br>'Buy it, use it, break it, fix it, trash it, change it, mail, upgrade it. Charge it, point it, zoom it, press it, snap it, work it, quick erase it. Write it, cut it, paste it, save it, load it, check it, quick rewrite it. Plug it, play it, burn it, rip it, Drag and drop it, zip – unzip it' DAFT PUNK, Technologic.",
+    title: '20 January 23:13 2023',
+    text: "Quote of the Week <br>'They say there was peace in Europe from 1945, but there wasn’t peace in my house.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
