@@ -68,14 +68,14 @@ let list_icon = {
 
 let list_1 = {
     title: 'web design',
-    text: 'My web design explores the space between technology and art. I can freelance websites or work with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and quality media.',
+    text: 'I see design as the exploration between technology and art. I freelance websites and have worked with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and good media.',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
 }
 let list_2 = {
     title: 'audio',
-    text: "My audio services are focussed on the production of music or recorded audio for content and other purposes. Whether that's an instrumental track for a digital video, or the audio for a podcast you’d like to launch, I am flexible and have the hardware and software appropriate to produce high quality phonic experiences.",
+    text: "My audio services are focussed on the production of music or recorded audio for content and other purposes. Whether that's an instrumental track for a digital video, or the audio for a podcast you’d like to launch, I am flexible and have the hardware and software appropriate to produce good audio.",
     icon_type: list_icon.type, 
     icon_title: 'fa-headphones-simple',
     icon_size: list_icon.size
@@ -91,7 +91,7 @@ let list_3 = {
 
 let list_4 = {
     title: 'video',
-    text: 'My approach to videography - quality video and shot composition engineered toward simple themes. I can lead production from start to finish, beginning with explorations of what the concept is and what it wants to achieve. I use design tools, market strategy and technology to develop what content you want to create and the method of its release and access. ',
+    text: 'Quality video and shot composition engineered toward simple themes. I use design tools, market strategy and technology to develop what content you want to create and the method of its release and access. ',
     icon_type: list_icon.type, 
     icon_title: 'fa-circle-play',
     icon_size: list_icon.size
@@ -172,7 +172,7 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '20 January 23:08 2023',
+    title: '27 January 10:45 2023',
     text: "Photo of the Week <br>Greywacke Catherdral.",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/rugged.JPG',
@@ -182,7 +182,7 @@ let blog_9 = {
 }
 
 let blog_10 = {
-    title: '20 January 23:13 2023',
+    title: '27 January 10:45 2023',
     text: "Quote of the Week <br>'They say there was peace in Europe from 1945, but there wasn’t peace in my house.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
