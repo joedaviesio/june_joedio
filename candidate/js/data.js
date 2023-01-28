@@ -25,7 +25,7 @@ let photos = {
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
     bp: 'candidate/src/img/bio/bp_04-01.png',
     hip_hop: 'candidate/src/img/bio/hip_hop_instru-01.png',
-    perry: 'candidate/src/img/bio/2021-12-26-perry-mix-c.jpg',
+    perry: 'candidate/src/img/blog/ryan_thumbnail.jpg',
     trytasee: 'candidate/src/img/bio/trytasee.jpg',
     web: 'candidate/src/img/bio/code.png',
     she_my_ex: 'candidate/src/img/blog/she_my_x_cover.jpg',
@@ -37,9 +37,9 @@ let para = {
 
     bio: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto itaque provident deserunt alias, maiores dolore earum voluptate quibusdam sunt vitae impedit suscipit optio harum.",
 
-    blondinis_p: "► ‘Blondini’s Dream’ is a short film set in Arthurs Pass village and national park, that follows a young mans psychological journey while crossing the main divide.<a href='https://www.youtube.com/watch?v=_qAy--r7jAg&t=2s'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://distrokid.com/hyperfollow/joedavies2/blondinis-dream-original-motion-picture-soundtrack'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    blondinis_p: "► <a href='https://www.youtube.com/watch?v=_qAy--r7jAg&t=2s'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://distrokid.com/hyperfollow/joedavies2/blondinis-dream-original-motion-picture-soundtrack'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    techno_p: "► Techno in the Hills is a video mix series that features nz artists and experiences in mainland settings.<a href='https://www.youtube.com/playlist?list=PLC4uCgckjPY_LGZFXjwJ5ICpVSHyFtJ0-'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    techno_p: "► Techno in the Hills.<a href='https://www.youtube.com/playlist?list=PLC4uCgckjPY_LGZFXjwJ5ICpVSHyFtJ0-'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     hip_hop_p: "► An open source hip hop instrumental album for users to enjoy and use in their own content.<a href='https://distrokid.com/hyperfollow/joedavies2/hip-hop-instrumentals'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a> ",
 
@@ -47,7 +47,7 @@ let para = {
 
     web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    she_my_ex_p: "►'She, My Ex' is a techno music video filmed in Hanmer Springs and the second half of the 'She, My Ex.' EP. Full version of the EP is available on Spotify.<a href='https://www.youtube.com/watch?v=N2ee-Fg0OBQ'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    she_my_ex_p: "►She, My Ex.<a href='https://www.youtube.com/watch?v=N2ee-Fg0OBQ'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://open.spotify.com/album/66FNt9pOLTxSGhSU0yUaiM'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
     
 
 
