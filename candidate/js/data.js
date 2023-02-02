@@ -43,7 +43,7 @@ let para = {
 
     hip_hop_p: "► An open source hip hop instrumental album for users to enjoy and use in their own content.<a href='https://distrokid.com/hyperfollow/joedavies2/hip-hop-instrumentals'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a> ",
 
-    trytasee_p: "► Trytasee is a techno music video and one half of the 'She, My Ex.' ep with both extended tracks to be released on spotify in November.<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    trytasee_p: "►<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '27 January 10:45 2023',
-    text: "Photo of the Week <br>Greywacke Catherdral.",
+    title: '03 February 09:43 2023',
+    text: "Photo of the Week <br>Cartogramma Della Sicilia.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/rugged.JPG',
+    blog_img_src: 'candidate/src/img/blog/sicilia.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '27 January 10:45 2023',
-    text: "Quote of the Week <br>'They say there was peace in Europe from 1945, but there wasn’t peace in my house.'",
+    title: '03 February 09:38 2023',
+    text: "Quote of the Week <br>'You can’t make a silk purse out of a pig's ear.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
