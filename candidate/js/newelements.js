@@ -73,8 +73,8 @@ function sub1_display(){
     text_total(comp04, para.techno_p);
     img1_total(comp06, photos.bp);
     text_total(comp06, para.blondinis_p);
-    img1_total(comp05, photos.she_my_ex);
-    text_total(comp05, para.she_my_ex_p);
+    img1_total(comp05, photos.ops);
+    text_total(comp05, para.ops_p);
     img1_total(comp09, photos.trytasee);
     text_total(comp09, para.trytasee_p);
     img1_total(comp10, photos.hip_hop);

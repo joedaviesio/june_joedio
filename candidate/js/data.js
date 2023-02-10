@@ -28,7 +28,7 @@ let photos = {
     perry: 'candidate/src/img/blog/ryan_thumbnail.jpg',
     trytasee: 'candidate/src/img/bio/trytasee.jpg',
     web: 'candidate/src/img/bio/code.png',
-    she_my_ex: 'candidate/src/img/blog/she_my_x_cover.jpg',
+    ops: 'candidate/src/img/blog/thumbnail_ops_2000.jpg',
     web: 'candidate/src/img/bio/code.png'
 
 }
@@ -37,17 +37,17 @@ let para = {
 
     bio: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto itaque provident deserunt alias, maiores dolore earum voluptate quibusdam sunt vitae impedit suscipit optio harum.",
 
-    blondinis_p: "► <a href='https://www.youtube.com/watch?v=_qAy--r7jAg&t=2s'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://distrokid.com/hyperfollow/joedavies2/blondinis-dream-original-motion-picture-soundtrack'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    blondinis_p: "► Blondini's Dream. <a href='https://www.youtube.com/watch?v=_qAy--r7jAg&t=2s'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://distrokid.com/hyperfollow/joedavies2/blondinis-dream-original-motion-picture-soundtrack'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     techno_p: "► Techno in the Hills.<a href='https://www.youtube.com/playlist?list=PLC4uCgckjPY_LGZFXjwJ5ICpVSHyFtJ0-'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     hip_hop_p: "► An open source hip hop instrumental album for users to enjoy and use in their own content.<a href='https://distrokid.com/hyperfollow/joedavies2/hip-hop-instrumentals'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a> ",
 
-    trytasee_p: "►<a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    trytasee_p: "►Trytasee. <a href='https://www.youtube.com/watch?v=5E0h7jAOzjA'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://open.spotify.com/album/66FNt9pOLTxSGhSU0yUaiM'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     web_p: "► Web design portfolio. <a href='https://yani.nz'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.com/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
-    she_my_ex_p: "►She, My Ex.<a href='https://www.youtube.com/watch?v=N2ee-Fg0OBQ'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://open.spotify.com/album/66FNt9pOLTxSGhSU0yUaiM'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+    ops_p: "►Ops 2000.<a href='https://www.youtube.com/watch?v=axHXc-MxHxU'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://open.spotify.com/album/7HAdHUBg8IUiqhu2T7I7jG'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
     
 
 
@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '03 February 09:43 2023',
-    text: "Photo of the Week <br>Cartogramma Della Sicilia.",
+    title: '10 February 13:20 2023',
+    text: "Photo of the Week <br>Original painting with accompanying music video watch <a href='https://www.youtube.com/watch?v=axHXc-MxHxU'>here</a>.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/sicilia.jpg',
+    blog_img_src: 'candidate/src/img/blog/01_ops_2000.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '03 February 09:38 2023',
-    text: "Quote of the Week <br>'You can’t make a silk purse out of a pig's ear.'",
+    title: '10 February 13:21 2023',
+    text: "Quote of the Week <br>'We don't despair, we get on with things.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
@@ -235,6 +235,14 @@ let soundcloud_icon = {
 
 }
 
+let tiktok_icon = {
+
+    type: 'fa-brands',
+    title: 'fa-tiktok',
+    size: 'fa-3x'
+
+}
+
 let socials_1 = {
     href: "https://www.facebook.com/councillorjoedavies",
 
@@ -275,7 +283,15 @@ let socials_5 = {
     icon_size: youtube_icon.size
 }
 
-let socials_total = [socials_1, socials_2, socials_3, socials_4, socials_5];
+let socials_6 = {
+    href: "https://www.tiktok.com/@joedaviesio",
+
+    icon_type: youtube_icon.type, 
+    icon_title: 'fa-tiktok',
+    icon_size: youtube_icon.size
+}
+
+let socials_total = [socials_2, socials_3,socials_5, socials_6, socials_1];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
