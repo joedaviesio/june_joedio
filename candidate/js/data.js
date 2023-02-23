@@ -53,9 +53,9 @@ let para = {
 
 }
 
-let dropdown_options = ["<a href=''>home</a>", "news", "projects", "design", "socials", "contact", "<a href='https://www.councillorjoedavies.com/'>Councillor Joe Davies</a>"];
+let dropdown_options = ["<a href=''>Home</a>", "News", "Projects", "Design", "Socials", "Contact", "<a href='https://www.councillorjoedavies.com/'>Councillor Joe Davies</a>"];
 
-let sub_header_options = ["news", "projects", "design"];
+let sub_header_options = ["News", "Projects", "Design"];
 
 let list_icon = {
 
@@ -67,14 +67,14 @@ let list_icon = {
 }
 
 let list_1 = {
-    title: 'web design',
+    title: 'Web Design',
     text: 'I see design as the exploration between technology and art. I freelance websites and have worked with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and good media.',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
 }
 let list_2 = {
-    title: 'audio',
+    title: 'Audio',
     text: "My audio services are focussed on the production of music or recorded audio for content and other purposes. Whether that's an instrumental track for a digital video, or the audio for a podcast you’d like to launch, I am flexible and have the hardware and software appropriate to produce good audio.",
     icon_type: list_icon.type, 
     icon_title: 'fa-headphones-simple',
@@ -90,7 +90,7 @@ let list_3 = {
 }
 
 let list_4 = {
-    title: 'video',
+    title: 'Video',
     text: 'Quality video and shot composition engineered toward simple themes. I use design tools, market strategy and technology to develop what content you want to create and the method of its release and access. ',
     icon_type: list_icon.type, 
     icon_title: 'fa-circle-play',
@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '10 February 13:20 2023',
-    text: "Photo of the Week <br>Original painting with accompanying music video watch <a href='https://www.youtube.com/watch?v=axHXc-MxHxU'>here</a>.",
+    title: '24 February 09:44 2023',
+    text: "Photo of the Week.",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/01_ops_2000.JPG',
+    blog_img_src: 'candidate/src/img/blog/touch.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '10 February 13:21 2023',
-    text: "Quote of the Week <br>'We don't despair, we get on with things.'",
+    title: '24 February 09:45 2023',
+    text: "Quote of the Week <br>'ChatGPT is at capacity right now.'",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
