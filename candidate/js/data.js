@@ -172,18 +172,18 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '24 February 09:44 2023',
-    text: "Photo of the Week.",
+    title: '23 March 07:58 2023',
+    text: "Design of the Week",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/touch.jpg',
+    blog_img_src: 'candidate/src/img/blog/window_v1.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
 let blog_10 = {
-    title: '24 February 09:45 2023',
-    text: "Quote of the Week <br>'ChatGPT is at capacity right now.'",
+    title: '23 March 07:59 2023',
+    text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
     blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
     icon_type: blog_icon.type, 
