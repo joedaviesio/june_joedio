@@ -172,10 +172,10 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '23 March 07:58 2023',
-    text: "Design of the Week",
+    title: '02 April 16:50 2023',
+    text: "Design of the week <br><br> Coming soon...",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/blog/window_v1.jpg',
+    blog_img_src: 'candidate/src/img/blog/01_.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
@@ -204,7 +204,7 @@ let blog_10 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10];
+let blog_total = [blog_9];
 
 
 let youtube_icon = {
