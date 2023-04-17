@@ -172,8 +172,8 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '02 April 16:50 2023',
-    text: "Design of the week <br><br> Coming soon...",
+    title: '02 April 16:50',
+    text: "Coming soon...",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/01_.jpg',
     icon_type: blog_icon.type, 
@@ -182,14 +182,24 @@ let blog_9 = {
 }
 
 let blog_10 = {
-    title: '23 March 07:59 2023',
-    text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
-    blog_img_boolean: 'false',
-    blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
+    title: '17 April 14:49',
+    text: "Painting short hand v1; concept; 8 tablet; jpg.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/one_01.jpg',
     icon_type: blog_icon.type, 
-    icon_title: blog_icon.title,
+    icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
+
+// let blog_10 = {
+//     title: '23 March 07:59 2023',
+//     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
+//     blog_img_boolean: 'false',
+//     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
+//     icon_type: blog_icon.type, 
+//     icon_title: blog_icon.title,
+//     icon_size: blog_icon.size
+// }
 
 // let blog_11 = {
 //     title: '19 November 17:18',
@@ -204,7 +214,7 @@ let blog_10 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9];
+let blog_total = [blog_9, blog_10];
 
 
 let youtube_icon = {
