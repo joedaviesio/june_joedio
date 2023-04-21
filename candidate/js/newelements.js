@@ -69,8 +69,8 @@ function sub1_display(){
     comp10.innerHTML = '';
     comp11.innerHTML = '';
 
-    img1_total(comp04, photos.perry);
-    text_total(comp04, para.techno_p);
+    img1_total(comp11, photos.perry);
+    text_total(comp11, para.techno_p);
     img1_total(comp06, photos.bp);
     text_total(comp06, para.blondinis_p);
     img1_total(comp05, photos.ops);
@@ -79,8 +79,8 @@ function sub1_display(){
     text_total(comp09, para.trytasee_p);
     img1_total(comp10, photos.hip_hop);
     text_total(comp10, para.hip_hop_p);
-    img1_total(comp11, photos.web);
-    text_total(comp11, para.web_p);
+    img1_total(comp04, photos.web);
+    text_total(comp04, para.web_p);
 
     input_container.style.display = 'none';
 

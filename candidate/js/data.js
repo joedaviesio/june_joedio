@@ -67,8 +67,8 @@ let list_icon = {
 }
 
 let list_1 = {
-    title: 'Web Design',
-    text: 'I see design as the exploration between technology and art. I freelance websites and have worked with other developers in bigger projects. My design principles include nice fonts, symmetrical placement, fresh palettes and gradients and good media.',
+    title: 'Design',
+    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> I see the technologies that I work with to be interrelated and this multipolarity brings unique qualities to the projects that I have completed and collaborated with. ',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
@@ -112,7 +112,7 @@ let list_6 = {
     icon_size: list_icon.size
 }
 
-let list_total = [list_1, list_2, list_4];
+let list_total = [list_1];
 
 console.log(list_total[0]);
 
