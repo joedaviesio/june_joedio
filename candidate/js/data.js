@@ -201,6 +201,15 @@ let blog_11 = {
     icon_size: blog_icon.size
 }
 
+let blog_12 = {
+    title: '09 May 17:09 2023',
+    text: 'Techno In The Hills J CLLR<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/824954580?h=1e0c4f8579&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Techno In The Hills J CLLR"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/blog/P1066817.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 // let blog_10 = {
 //     title: '23 March 07:59 2023',
 //     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
@@ -224,7 +233,7 @@ let blog_11 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10, blog_11];
+let blog_total = [blog_9, blog_10, blog_11, blog_12];
 
 
 let youtube_icon = {
