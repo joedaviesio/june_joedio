@@ -172,7 +172,7 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '02 April 16:50',
+    title: '02 April 16:50 2023',
     text: "Coming soon...",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/01_.jpg',
@@ -182,10 +182,20 @@ let blog_9 = {
 }
 
 let blog_10 = {
-    title: '17 April 14:49',
+    title: '17 April 14:49 2023',
     text: "Painting short hand v1; concept; 8 tablet; jpg.",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/one_01.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_11 = {
+    title: '09 May 14:19 2023',
+    text: "Kingfisher in flight.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/P1066817.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
@@ -214,7 +224,7 @@ let blog_10 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10];
+let blog_total = [blog_9, blog_10, blog_11];
 
 
 let youtube_icon = {
