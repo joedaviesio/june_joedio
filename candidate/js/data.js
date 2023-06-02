@@ -68,7 +68,7 @@ let list_icon = {
 
 let list_1 = {
     title: 'Design',
-    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> I see the technologies that I work with to be interrelated and this multipolarity brings unique qualities to the projects that I have completed and collaborated with. ',
+    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> The technologies that I work with are interrelated and this brings unique qualities to my work.   ',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
@@ -210,6 +210,16 @@ let blog_12 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
+
+let blog_13 = {
+    title: '02 June 15:42 2023',
+    text: '',
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/fun01.png',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 // let blog_10 = {
 //     title: '23 March 07:59 2023',
 //     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
@@ -233,7 +243,7 @@ let blog_12 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10, blog_11, blog_12];
+let blog_total = [blog_9, blog_10, blog_12, blog_13];
 
 
 let youtube_icon = {
