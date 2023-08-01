@@ -220,6 +220,16 @@ let blog_13 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
+
+let blog_14 = {
+    title: '01 August 16:09',
+    text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/un9dgwzLD9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+ blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 // let blog_10 = {
 //     title: '23 March 07:59 2023',
 //     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
@@ -243,7 +253,7 @@ let blog_13 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14];
 
 
 let youtube_icon = {
