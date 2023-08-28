@@ -230,6 +230,16 @@ let blog_14 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
+
+let blog_15 = {
+    title: '29 August 11:49 2023',
+    text: '',
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/whole_map.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 // let blog_10 = {
 //     title: '23 March 07:59 2023',
 //     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
@@ -253,7 +263,7 @@ let blog_14 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15];
 
 
 let youtube_icon = {
