@@ -336,6 +336,14 @@ let tiktok_icon = {
 
 }
 
+let inaturalist_icon = {
+
+    type: 'fa-solid',
+    title: 'fa-dove',
+    size: 'fa-3x'
+
+}
+
 let socials_1 = {
     href: "https://www.facebook.com/councillorjoedavies",
 
@@ -384,7 +392,15 @@ let socials_6 = {
     icon_size: youtube_icon.size
 }
 
-let socials_total = [socials_2, socials_3,socials_5, socials_6, socials_1];
+let socials_7 = {
+    href: "https://www.inaturalist.org/people/7621498",
+
+    icon_type: inaturalist_icon.type, 
+    icon_title: inaturalist_icon.title,
+    icon_size: youtube_icon.size
+}
+
+let socials_total = [socials_2, socials_7, socials_5, socials_6, socials_1];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
