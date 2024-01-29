@@ -48,14 +48,18 @@ let para = {
     web_p: "► Web design portfolio. <a href='https://yanijohanson.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>yani.nz<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://100pureev.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>100% PURE EV<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://20cryptosio.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>20 CRYPTOS; desktop.<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://craigpauling.netlify.app/'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>craigpauling.com<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
 
     ops_p: "►Ops 2000.<a href='https://www.youtube.com/watch?v=axHXc-MxHxU'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://open.spotify.com/album/7HAdHUBg8IUiqhu2T7I7jG'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>",
+
+    
+
+    queen_reality: "► Queen Reality B SIDE. <a href='https://www.youtube.com/watch?v=_qAy--r7jAg&t=2s'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to watch<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a><a href='https://distrokid.com/hyperfollow/joedavies2/blondinis-dream-original-motion-picture-soundtrack'><div class='component_but' id='component_but'><button class='button' id='button'><div class='contact'>to listen<i class='fa-solid fa-hand-sparkles'></i></div></button></div></a>"
     
 
 
 }
 
-let dropdown_options = ["<a href=''>Home</a>", "News", "Projects", "Design", "Socials", "Contact", "<a href='https://www.councillorjoedavies.com/'>Councillor Joe Davies</a>"];
+let dropdown_options = ["<a href=''>Home</a>", "News", "Design", "Socials", "Contact", "<a href='https://www.councillorjoedavies.com/'>Councillor Joe Davies</a>"];
 
-let sub_header_options = ["News", "Projects", "Design"];
+let sub_header_options = ["News", "Design"];
 
 let list_icon = {
 
@@ -68,7 +72,7 @@ let list_icon = {
 
 let list_1 = {
     title: 'Design',
-    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> The technologies that I work with are interrelated and this brings unique qualities to my work.   ',
+    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> The technologies that I work with are interrelated and this brings unique qualities to my work.',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
@@ -222,7 +226,7 @@ let blog_13 = {
 }
 
 let blog_14 = {
-    title: '01 August 16:09',
+    title: '01 August 16:09 2023',
     text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/un9dgwzLD9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
  blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
@@ -242,7 +246,7 @@ let blog_15 = {
 }
 
 let blog_16 = {
-    title: '27 October 22:27',
+    title: '27 October 22:27 2023',
     text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UMcylGs59tg?si=Ml-brtF0NzUtlJbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
  blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
@@ -252,10 +256,20 @@ let blog_16 = {
 }
 
 let blog_17 = {
-    title: '09 January 2024 15:53',
+    title: '09 January 2024 15:53 2024',
     text: 'Crossing the Taipo.',
  blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/sketch.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_18 = {
+    title: '29 January 19:53 2024',
+    text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/umabYhxKdAU?si=0t6a1EWA7X0R_eNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+ blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
@@ -283,7 +297,7 @@ let blog_17 = {
 
 // let blog_total = [blog_11, blog_9, blog_10];
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18];
 
 
 let youtube_icon = {

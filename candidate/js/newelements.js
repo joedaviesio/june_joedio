@@ -1,7 +1,7 @@
 let nav_bar = document.getElementById('nav_bars');
 let sub0 = document.getElementById('sub0');
 let sub1 = document.getElementById('sub1');
-let sub2 = document.getElementById('sub2');
+// let sub2 = document.getElementById('sub2');
 let input_container = document.getElementById('input_container');
 let dt0 = document.getElementById('dt0');
 let dt1 = document.getElementById('dt1');
@@ -46,9 +46,9 @@ comp04.append(list_wide);
 
 input_container.style.display = 'none';
 
-sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
+// sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
-sub2.style.backgroundColor = '#6c5aa6';
+sub1.style.backgroundColor = '#6c5aa6';
 
 if (dropdown_container_wide.classList.contains('modalon')) {
     dropdown_container_wide.classList.remove('modalon');
@@ -81,12 +81,13 @@ function sub1_display(){
     text_total(comp10, para.hip_hop_p);
     img1_total(comp04, photos.web);
     text_total(comp04, para.web_p);
+    
 
     input_container.style.display = 'none';
 
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub1.style.backgroundColor = '#6c5aa6';
-    sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
+    // sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 
     if (dropdown_container_wide.classList.contains('modalon')) {
         dropdown_container_wide.classList.remove('modalon');
@@ -111,7 +112,7 @@ function sub2_display(){
     comp04.append(blog_wide); 
 
     sub0.style.backgroundColor = '#6c5aa6';
-    sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
+    // sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 
     if (dropdown_container_wide.classList.contains('modalon')) {
@@ -142,7 +143,7 @@ function socials_display(){
     }
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
-    sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
+    // sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 
 } 
 
@@ -158,7 +159,7 @@ function contact_display(){
     input_container.style.display = 'flex';
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
-    sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
+    // sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     button_comp.innerHTML = '';
     if (dropdown_container_wide.classList.contains('modalon')) {
         dropdown_container_wide.classList.remove('modalon');
@@ -172,16 +173,16 @@ function contact_display(){
 dt1.onclick = sub2_display;
 sub0.onclick = sub2_display;
 
-dt2.onclick = sub1_display;
-sub1.onclick = sub1_display;
+dt2.onclick = sub0_display;
+sub1.onclick = sub0_display;
 
-dt3.onclick = sub0_display;
-sub2.onclick = sub0_display;
+dt3.onclick = socials_display;
+// sub2.onclick = sub0_display;
 
 
 
-dt4.onclick = socials_display;
+dt4.onclick = contact_display;
 
-dt5.onclick = contact_display;
+// dt5.onclick = contact_display;
 
 // button.onclick = contact_display;
