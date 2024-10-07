@@ -284,30 +284,29 @@ let blog_19 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
-// let blog_10 = {
-//     title: '23 March 07:59 2023',
-//     text: "Quote of the Week <br>Let me go away and kick the tyres on this one.",
-//     blog_img_boolean: 'false',
-//     blog_img_src: 'candidate/src/img/bio/trytasee.jpg',
-//     icon_type: blog_icon.type, 
-//     icon_title: blog_icon.title,
-//     icon_size: blog_icon.size
-// }
 
-// let blog_11 = {
-//     title: '19 November 17:18',
-//     text: "Movie of the Week <br> Vice. Adam McKay, 2018.",
-//     blog_img_boolean: 'true',
-//     blog_img_src: 'candidate/src/img/blog/vice-christian-bale.jpg',
-//     icon_type: photo_icon.type, 
-//     icon_title: photo_icon.title,
-//     icon_size: blog_icon.size
-// }
+let blog_20 = {
+    title: '22 August 11:00 2024',
+    text: 'Data Design',
+ blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/00-cc.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_21 = {
+    title: '08 October 10:24 2024',
+    text: 'Portrait',
+ blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/2024-10-08-photo.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-// let blog_total = [blog_11, blog_9, blog_10];
-
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21];
 
 
 let youtube_icon = {
