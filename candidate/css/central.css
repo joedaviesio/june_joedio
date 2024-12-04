@@ -47,7 +47,7 @@ a {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 20rem;
+  font-size: 8rem;
 }
 
 @media (max-width: 500px) {
