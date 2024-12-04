@@ -30,12 +30,12 @@
             align-items: center;
             justify-content: center;
             color: $prime_header_color;
-           font-size: $prime_header_font_size;
+           font-size: 20rem;
 
-           @media (max-width: 400px) 
+           @media (max-width: 500px) 
            {
   
-           font-size: 2.8rem;
+           font-size: 4rem;
    
            }
 

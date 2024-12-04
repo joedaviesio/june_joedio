@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://use.typekit.net/veb3jxj.css");
+@import url("https://use.typekit.net/ivj8aez.css");
 *,
 ::after,
 ::before {
@@ -40,18 +41,18 @@ a {
 }
 
 .prime_header_container .prime_header {
-  font-family: "ohm-bold", "Open Sans";
+  font-family: "chorine-large", "Open Sans";
   line-height: 1.4;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 3rem;
+  font-size: 20rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .prime_header_container .prime_header {
-    font-size: 2.8rem;
+    font-size: 4rem;
   }
 }
 

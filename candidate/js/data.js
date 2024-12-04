@@ -1,5 +1,5 @@
 let titles = {
-    prime_header: 'joe davies .io',
+    prime_header: 'joeDAVIES.io',
     slogan: "audio, video & design.",
     sub1: 'news',
     sub2: 'policy',
@@ -72,7 +72,7 @@ let list_icon = {
 
 let list_1 = {
     title: 'Design',
-    text: 'My design ‘specifies for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process’. <br> <br> Professional experience with Autodesk Maya, Photoshop, Illustrator, InDesign, html, css, javascript, wordpress, Vue, Premiere Pro and Ableton Live. <br> <br> The technologies that I work with are interrelated and this brings unique qualities to my work.',
+    text: 'My design philosophy specifies that all solutions - whether object, system, activity, or process - must emerge from rigorous design thinking.',
     icon_type: list_icon.type, 
     icon_title: 'fa-sliders',
     icon_size: list_icon.size
@@ -305,8 +305,18 @@ let blog_21 = {
     icon_size: blog_icon.size
 }
 
+let blog_22 = {
+    title: '04 December 18:19 2024',
+    text: '',
+ blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/voxpopulei.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21];
+
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22];
 
 
 let youtube_icon = {
