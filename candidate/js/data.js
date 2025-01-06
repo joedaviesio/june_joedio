@@ -315,8 +315,17 @@ let blog_22 = {
     icon_size: blog_icon.size
 }
 
+let blog_23 = {
+    title: '06 January 17:59 2025',
+    text: '',
+ blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/666555555.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23];
 
 
 let youtube_icon = {
