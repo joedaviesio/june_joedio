@@ -325,7 +325,17 @@ let blog_23 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23];
+let blog_59 = {
+    title: '18 April 2024 Happy Easter ',
+    text: "",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/canterbury.jpeg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_59];
 
 
 let youtube_icon = {
