@@ -326,7 +326,7 @@ let blog_23 = {
 }
 
 let blog_59 = {
-    title: '18 April 2025 15:39 ',
+    title: '03 May 2025 15:39 ',
     text: "Chambers",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/chambers2.jpg',
@@ -337,7 +337,7 @@ let blog_59 = {
 
 
 let blog_60 = {
-    title: '03 May 2025 Happy Easter ',
+    title: '18 April 2025 Happy Easter ',
     text: "",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/canterbury.jpeg',
