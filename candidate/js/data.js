@@ -357,10 +357,10 @@ let blog_61 = {
 }
 
 let blog_62 = {
-    title: '08 August 22:38 ',
+    title: '06 August 22:38 ',
     text: "",
     blog_img_boolean: 'true',
-    blog_img_src: 'candidate/src/img/bio/sddsss.jpg',
+    blog_img_src: 'candidate/src/img/blog/sddsss.jpg',
     icon_type: blog_icon.type, 
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
