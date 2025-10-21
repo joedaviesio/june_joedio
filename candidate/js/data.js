@@ -357,7 +357,7 @@ let blog_61 = {
 }
 
 let blog_62 = {
-    title: '06 August 22:38 ',
+    title: '06 August 2025 22:38 ',
     text: "",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/blog/sddsss.jpg',
@@ -366,7 +366,17 @@ let blog_62 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62];
+let blog_63 = {
+    title: '22 October 2025 05:52 ',
+    text: "",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/yahweh.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62, blog_63];
 
 
 let youtube_icon = {
