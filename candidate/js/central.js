@@ -45,7 +45,7 @@ header_total(comp01);
 // ere(comp03);
 
 // subheader
-function sub_header_total(comp){
+function sub_header_total(comp, i){
 
 let sub1 = document.createElement('div');
 sub1.classList.add('sub_header');
@@ -61,7 +61,7 @@ comp.append(sub1);
 
 let sub_header = document.createElement('div');
 sub_header.classList.add('sub_header_container');
-for(i=0; i<sub_header_options.length; i++)
+for(let i=0; i<sub_header_options.length; i++)
 {
 sub_header_total(sub_header, i);
 };
@@ -165,7 +165,7 @@ comp.append(dropdown_container);
 let dropdown_container_wide = document.createElement('div');
 dropdown_container_wide.classList.add('dropdown_container_wide');
 dropdown_container_wide.classList.add('modaloff');
-for(i=0; i<dropdown_options.length; i++)
+for(let i=0; i<dropdown_options.length; i++)
 {
     dropdown_test(dropdown_container_wide, i);
 }
@@ -210,7 +210,7 @@ function list_comp(comp, i) {
 let list_wide = document.createElement('div'); 
 list_wide.classList.add('list_wide');
 
-for(i=0; i<list_total.length; i++)
+for(let i=0; i<list_total.length; i++)
 {
     list_comp(list_wide, i);
 }
@@ -272,7 +272,7 @@ function blog_comp(comp, i) {
     let blog_wide = document.createElement('div'); 
     blog_wide.classList.add('blog_wide');
 
-        for(i=0; i<blog_total.length; i++)
+        for(let i=0; i<blog_total.length; i++)
 {
     blog_comp(blog_wide, i);
             }
@@ -307,7 +307,7 @@ function socials_comp(comp, i){
 let socials_wide = document.createElement('div');
 socials_wide.classList.add('socials_wide'); 
 
-for(i=0; i<socials_total.length; i++)
+for(let i=0; i<socials_total.length; i++)
 {
     socials_comp(socials_wide, i);
 }
