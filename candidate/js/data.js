@@ -371,12 +371,27 @@ let blog_63 = {
     text: "",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/yahweh.jpg',
-    icon_type: blog_icon.type, 
+    icon_type: blog_icon.type,
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62, blog_63];
+let blog_64 = {
+    title: '02 March 2026 05:07',
+    text: "Meet BOWEN, a free public legal AI model for New Zealand.<br><br>I built this project over summer. Thank you to those people who've helped test Bowen so far. The idea came through work chairing the Canterbury Regional Council's AI Working Group.<br><br>BOWEN uses a Retrieval-Augmented Generation (RAG) system, which means it's trained on and has direct access to a data bank of New Zealand legislation; currently covering 77 pieces of legislation. (I am hoping to expand this - there are approximately 20,000 pieces of legislation in NZ, if you want to assist with this email below).<br><br><a href='https://bowenpublic.com'>bowenpublic.com</a> will always be 100% free. It's a public tool, built for everyone. Queries are collected for analysis but are anonymous.<br><br>One thing testers asked was \"why wouldn't I just use chat for this?\"<br><br>My response is test it, ask BOWEN and your go to model the same legal question and test the answer and references.<br><br>Ask him hard questions, and if you find any bugs, wrong answers or ux ideas, let me know.<br><br><a href='mailto:joe@bowenpublic.com'>joe@bowenpublic.com</a>",
+    blog_img_boolean: 'false',
+    carousel_images: [
+        'candidate/src/img/bowen/IMG_1999.jpg',
+        'candidate/src/img/bowen/IMG_2001.jpg',
+        'candidate/src/img/bowen/IMG_2002.jpg',
+        'candidate/src/img/bowen/04.jpeg'
+    ],
+    icon_type: blog_icon.type,
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62, blog_63, blog_64];
 
 
 let youtube_icon = {

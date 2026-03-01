@@ -254,9 +254,9 @@ function blog_comp(comp, i) {
 
     if (blog_total[i].blog_img_boolean == 'true'){
         let blog_img_container = document.createElement('div');
-        blog_img_container.classList.add('blog_img_container'); 
-        blog_img_container.classList.add('holds-the-frame'); 
-        let blog_img = document.createElement('img'); 
+        blog_img_container.classList.add('blog_img_container');
+        blog_img_container.classList.add('holds-the-frame');
+        let blog_img = document.createElement('img');
         blog_img.classList.add('blog_img');
         blog_img.src = blog_total[i].blog_img_src;
 
@@ -265,7 +265,53 @@ function blog_comp(comp, i) {
         blog_component.append(blog_img_container);
 
     }
-  
+
+    // Carousel support
+    if (blog_total[i].carousel_images && blog_total[i].carousel_images.length > 0) {
+        let carousel_container = document.createElement('div');
+        carousel_container.classList.add('carousel_container');
+
+        // Create images
+        blog_total[i].carousel_images.forEach((imgSrc, index) => {
+            let carousel_img = document.createElement('img');
+            carousel_img.classList.add('carousel_img');
+            carousel_img.src = imgSrc;
+            if (index === 0) carousel_img.classList.add('active');
+            carousel_container.append(carousel_img);
+        });
+
+        // Create arrows
+        let leftArrow = document.createElement('button');
+        leftArrow.classList.add('carousel_arrow', 'left');
+        leftArrow.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
+
+        let rightArrow = document.createElement('button');
+        rightArrow.classList.add('carousel_arrow', 'right');
+        rightArrow.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
+
+        carousel_container.append(leftArrow);
+        carousel_container.append(rightArrow);
+
+        // Arrow click handlers
+        let currentIndex = 0;
+        const images = carousel_container.querySelectorAll('.carousel_img');
+        const totalImages = images.length;
+
+        leftArrow.addEventListener('click', () => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            images[currentIndex].classList.add('active');
+        });
+
+        rightArrow.addEventListener('click', () => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % totalImages;
+            images[currentIndex].classList.add('active');
+        });
+
+        blog_component.append(carousel_container);
+    }
+
     comp.append(blog_component);
 }
 
