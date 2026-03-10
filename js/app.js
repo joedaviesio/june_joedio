@@ -41,7 +41,7 @@
     html += '<div class="nav-modal-bio">';
     const sparkleHand = '<svg class="sparkle-hand" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l1.09 3.26L16 6l-2.91.74L12 10l-1.09-3.26L8 6l2.91-.74L12 2z"/><path d="M5 9l.55 1.64L7 11.18l-1.45.37L5 13.18l-.55-1.63L3 11.18l1.45-.37L5 9z"/><path d="M19 9l.55 1.64L21 11.18l-1.45.37L19 13.18l-.55-1.63L17 11.18l1.45-.37L19 9z"/><path d="M12 15c-2.5 0-4 1.5-4 3v2h8v-2c0-1.5-1.5-3-4-3z"/><path d="M9 13.5s1-1 3-1 3 1 3 1"/></svg> ';
     html += '<a href="https://www.ecan.govt.nz" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'Canterbury Regional Councillor</a>';
-    html += '<a href="https://www.ecan.govt.nz" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'Orei East Christchurch</a>';
+    html += '<a href="https://canterburymaps.govt.nz/" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'Orei East Christchurch</a>';
     html += '<a href="https://www.metroinfo.co.nz/" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'Public Transport Core Service Lead</a>';
     html += '<a href="https://bowenpublic.com" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'Chair Canterbury Regional Council Artificial Intelligence Working Group</a>';
     html += '<a href="https://bowenpublic.com" target="_blank" rel="noopener" class="bio-line">' + sparkleHand + 'bowenpublic.com founder</a>';

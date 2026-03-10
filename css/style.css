@@ -548,7 +548,7 @@ img {
 /* Feed-specific accent colors */
 .feed-council .feed-title  { color: var(--coral); }
 .feed-tech .feed-title      { color: var(--gold); }
-.feed-political .feed-title { color: var(--purple-mid); }
+.feed-political .feed-title { color: var(--gold); }
 .feed-memes .feed-title     { color: var(--coral); }
 
 /* ============================================================
@@ -618,8 +618,8 @@ img {
 .post-body h3 {
   font-family: var(--font-gill);
   font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--gold);
+  font-weight: 400;
+  color: var(--coral);
   margin: var(--space-lg) 0 var(--space-sm);
 }
 
