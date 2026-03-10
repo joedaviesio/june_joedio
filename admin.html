@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jd.io — Admin</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple: #3f3247;
+      --purple-deep: #2a1f31;
+      --coral: #f36e62;
+      --gold: #ffc101;
+      --white: #f5f0eb;
+      --black: #1a1a1a;
+      --radius: 12px;
+      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--purple-deep);
+      color: var(--white);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .admin-wrap {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+      opacity: 0.5;
+      margin-bottom: 24px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0.6;
+      margin-bottom: 6px;
+      margin-top: 16px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px; /* prevents zoom on iOS */
+      font-family: var(--font);
+      background: var(--purple);
+      color: var(--white);
+      border: 1px solid rgba(245,240,235,0.1);
+      border-radius: var(--radius);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      border-color: var(--gold);
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    select {
+      appearance: none;
+      cursor: pointer;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin-top: 24px;
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: var(--font);
+      color: var(--white);
+      background: var(--coral);
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .btn:hover { opacity: 0.85; }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .btn-small {
+      display: inline-block;
+      width: auto;
+      padding: 8px 16px;
+      margin-top: 12px;
+      font-size: 0.8rem;
+      background: rgba(245,240,235,0.08);
+    }
+
+    .status {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: var(--radius);
+      font-size: 0.85rem;
+      display: none;
+    }
+
+    .status.success {
+      display: block;
+      background: rgba(76,175,80,0.15);
+      color: #81c784;
+    }
+
+    .status.error {
+      display: block;
+      background: rgba(244,67,54,0.15);
+      color: #e57373;
+    }
+
+    .status.info {
+      display: block;
+      background: rgba(255,193,1,0.1);
+      color: var(--gold);
+    }
+
+    /* Auth section */
+    #auth-section { margin-bottom: 24px; }
+
+    .auth-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px;
+      background: var(--purple);
+      border-radius: var(--radius);
+      font-size: 0.85rem;
+    }
+
+    .auth-bar .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #81c784;
+      flex-shrink: 0;
+    }
+
+    .auth-bar span { flex: 1; }
+
+    .auth-bar button {
+      background: none;
+      border: none;
+      color: var(--coral);
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: var(--font);
+    }
+
+    /* Image preview */
+    .image-previews {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .image-previews img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid rgba(245,240,235,0.1);
+    }
+
+    /* Recent posts */
+    .recent { margin-top: 40px; border-top: 1px solid rgba(245,240,235,0.08); padding-top: 24px; }
+    .recent h2 { font-size: 1rem; margin-bottom: 16px; opacity: 0.6; }
+
+    .recent-post {
+      padding: 12px;
+      background: var(--purple);
+      border-radius: var(--radius);
+      margin-bottom: 8px;
+    }
+
+    .recent-post .rp-channel {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--coral);
+    }
+
+    .recent-post .rp-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    .recent-post .rp-date {
+      font-size: 0.7rem;
+      opacity: 0.4;
+      margin-top: 2px;
+    }
+
+    .hidden { display: none; }
+
+    #qr-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.9);
+      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    #qr-overlay.visible {
+      display: flex;
+    }
+
+    #qr-container svg {
+      border-radius: 12px;
+      max-width: 280px;
+    }
+
+    #qr-overlay p {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      text-align: center;
+      max-width: 280px;
+    }
+
+    #qr-overlay button {
+      margin-top: 8px;
+      padding: 10px 24px;
+      background: var(--coral);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-family: var(--font);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="admin-wrap">
+  <h1>jd.io admin</h1>
+  <p class="subtitle">Post from anywhere.</p>
+
+  <!-- Auth -->
+  <div id="auth-section">
+    <div id="auth-login">
+      <label for="token-input">GitHub Token</label>
+      <input type="password" id="token-input" placeholder="ghp_...">
+      <button class="btn" id="auth-btn" style="margin-top:12px">Connect</button>
+      <div id="auth-status" class="status"></div>
+    </div>
+    <div id="auth-connected" class="hidden">
+      <div class="auth-bar">
+        <div class="dot"></div>
+        <span>Connected to GitHub</span>
+        <button id="qr-btn">QR</button>
+        <button id="logout-btn">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Post Form -->
+  <form id="post-form" class="hidden">
+    <label for="channel">Channel</label>
+    <select id="channel">
+      <option value="council">Council</option>
+      <option value="tech">Tech</option>
+      <option value="political">Political</option>
+      <option value="memes">Memes</option>
+    </select>
+
+    <label for="title">Title</label>
+    <input type="text" id="title" placeholder="Post title (optional)">
+
+    <label for="body">Body</label>
+    <textarea id="body" placeholder="What's on your mind?"></textarea>
+
+    <label for="images">Images</label>
+    <input type="file" id="images" accept="image/*" multiple>
+    <div class="image-previews" id="image-previews"></div>
+
+    <label for="video">Video embed URL (optional)</label>
+    <input type="text" id="video" placeholder="https://www.youtube.com/embed/...">
+
+    <label for="link-url">Link URL (optional)</label>
+    <input type="text" id="link-url" placeholder="https://...">
+
+    <label for="link-label">Link label</label>
+    <input type="text" id="link-label" placeholder="Read more">
+
+    <button type="submit" class="btn" id="post-btn">Post</button>
+    <div id="post-status" class="status"></div>
+  </form>
+
+  <!-- Recent Posts -->
+  <div id="recent" class="recent hidden">
+    <h2>Recent posts</h2>
+    <div id="recent-list"></div>
+  </div>
+</div>
+
+<div id="qr-overlay">
+  <p>Scan this on your phone to copy the token. Tap anywhere to close.</p>
+  <div id="qr-container"></div>
+  <button id="qr-close">Close</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+
+<script>
+(function () {
+  'use strict';
+
+  const OWNER = 'joedaviesio';
+  const REPO = 'june_joedio';
+  const FILE_PATH = 'posts.json';
+  const API = 'https://api.github.com';
+
+  // --- DOM refs ---
+  const tokenInput = document.getElementById('token-input');
+  const authBtn = document.getElementById('auth-btn');
+  const authLogin = document.getElementById('auth-login');
+  const authConnected = document.getElementById('auth-connected');
+  const authStatus = document.getElementById('auth-status');
+  const logoutBtn = document.getElementById('logout-btn');
+  const postForm = document.getElementById('post-form');
+  const postBtn = document.getElementById('post-btn');
+  const postStatus = document.getElementById('post-status');
+  const imagesInput = document.getElementById('images');
+  const imagePreviews = document.getElementById('image-previews');
+  const recentSection = document.getElementById('recent');
+  const recentList = document.getElementById('recent-list');
+
+  let token = localStorage.getItem('jdio_token') || '';
+
+  // --- Helpers ---
+  function showStatus(el, msg, type) {
+    el.textContent = msg;
+    el.className = 'status ' + type;
+  }
+
+  function hideStatus(el) {
+    el.className = 'status';
+    el.textContent = '';
+  }
+
+  function formatDate(d) {
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  async function ghFetch(path, opts) {
+    const res = await fetch(API + path, {
+      ...opts,
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
+        ...(opts && opts.headers)
+      }
+    });
+    return res;
+  }
+
+  // --- Auth ---
+  async function verifyToken(t) {
+    const res = await fetch(API + '/repos/' + OWNER + '/' + REPO, {
+      headers: {
+        'Authorization': 'Bearer ' + t,
+        'Accept': 'application/vnd.github+json'
+      }
+    });
+    return res.ok;
+  }
+
+  function showLoggedIn() {
+    authLogin.classList.add('hidden');
+    authConnected.classList.remove('hidden');
+    postForm.classList.remove('hidden');
+    loadRecent();
+  }
+
+  function showLoggedOut() {
+    authLogin.classList.remove('hidden');
+    authConnected.classList.add('hidden');
+    postForm.classList.add('hidden');
+    recentSection.classList.add('hidden');
+  }
+
+  authBtn.addEventListener('click', async () => {
+    const t = tokenInput.value.trim();
+    if (!t) return;
+    authBtn.disabled = true;
+    showStatus(authStatus, 'Verifying...', 'info');
+    try {
+      const ok = await verifyToken(t);
+      if (ok) {
+        token = t;
+        localStorage.setItem('jdio_token', token);
+        hideStatus(authStatus);
+        showLoggedIn();
+      } else {
+        showStatus(authStatus, 'Invalid token or no access to repo.', 'error');
+      }
+    } catch (e) {
+      showStatus(authStatus, 'Connection failed.', 'error');
+    }
+    authBtn.disabled = false;
+  });
+
+  logoutBtn.addEventListener('click', () => {
+    token = '';
+    localStorage.removeItem('jdio_token');
+    tokenInput.value = '';
+    showLoggedOut();
+  });
+
+  // QR code for token transfer
+  const qrBtn = document.getElementById('qr-btn');
+  const qrOverlay = document.getElementById('qr-overlay');
+  const qrContainer = document.getElementById('qr-container');
+  const qrClose = document.getElementById('qr-close');
+
+  qrBtn.addEventListener('click', () => {
+    qrContainer.innerHTML = '';
+    try {
+      var qr = qrcode(0, 'L');
+      qr.addData(token);
+      qr.make();
+      qrContainer.innerHTML = qr.createSvgTag(5, 0);
+      var svg = qrContainer.querySelector('svg');
+      if (svg) { svg.style.borderRadius = '12px'; }
+      qrOverlay.classList.add('visible');
+    } catch (e) {
+      qrContainer.innerHTML = '<p style="color:var(--coral)">Could not generate QR code.</p>';
+      qrOverlay.classList.add('visible');
+    }
+  });
+
+  qrClose.addEventListener('click', () => {
+    qrOverlay.classList.remove('visible');
+  });
+
+  qrOverlay.addEventListener('click', (e) => {
+    if (e.target === qrOverlay) qrOverlay.classList.remove('visible');
+  });
+
+  // Auto-login
+  if (token) {
+    verifyToken(token).then(ok => {
+      if (ok) showLoggedIn();
+      else showLoggedOut();
+    }).catch(() => showLoggedOut());
+  }
+
+  // --- Image preview ---
+  imagesInput.addEventListener('change', () => {
+    imagePreviews.innerHTML = '';
+    Array.from(imagesInput.files).forEach(file => {
+      const url = URL.createObjectURL(file);
+      const img = document.createElement('img');
+      img.src = url;
+      imagePreviews.appendChild(img);
+    });
+  });
+
+  // --- Compress image via canvas ---
+  function compressImage(file, maxWidth, quality) {
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = new Image();
+        img.onload = () => {
+          const scale = Math.min(1, maxWidth / img.width);
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width * scale;
+          canvas.height = img.height * scale;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          canvas.toBlob((blob) => {
+            const r = new FileReader();
+            r.onload = () => resolve(r.result.split(',')[1]);
+            r.readAsDataURL(blob);
+          }, 'image/jpeg', quality);
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  // --- Upload image to repo ---
+  async function uploadImage(channel, filename, base64Content) {
+    const path = 'img/' + channel + '/' + filename;
+    const res = await ghFetch('/repos/' + OWNER + '/' + REPO + '/contents/' + path, {
+      method: 'PUT',
+      body: JSON.stringify({
+        message: 'img: ' + channel + '/' + filename,
+        content: base64Content
+      })
+    });
+    if (!res.ok) throw new Error('Failed to upload image: ' + filename);
+    const data = await res.json();
+    return data.content.path;
+  }
+
+  // --- Fetch posts.json from repo ---
+  async function fetchPosts() {
+    const res = await ghFetch('/repos/' + OWNER + '/' + REPO + '/contents/' + FILE_PATH);
+    if (!res.ok) throw new Error('Failed to fetch posts.json');
+    const data = await res.json();
+    const content = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    return { content, sha: data.sha };
+  }
+
+  // --- Commit updated posts.json ---
+  async function commitPosts(content, sha, message) {
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2))));
+    const res = await ghFetch('/repos/' + OWNER + '/' + REPO + '/contents/' + FILE_PATH, {
+      method: 'PUT',
+      body: JSON.stringify({
+        message: message,
+        content: encoded,
+        sha: sha
+      })
+    });
+    if (!res.ok) throw new Error('Failed to commit posts.json');
+    return res.json();
+  }
+
+  // --- Load recent posts (fetches from local posts.json, not GitHub API) ---
+  async function loadRecent() {
+    try {
+      const res = await fetch('posts.json');
+      if (!res.ok) { recentSection.classList.add('hidden'); return; }
+      const content = await res.json();
+      const all = [];
+      for (const ch of Object.keys(content)) {
+        (content[ch] || []).forEach(p => all.push({ ...p, channel: ch }));
+      }
+      all.sort((a, b) => new Date(b.date) - new Date(a.date));
+      const recent = all.slice(0, 8);
+
+      if (recent.length === 0) {
+        recentSection.classList.add('hidden');
+        return;
+      }
+
+      recentList.innerHTML = recent.map(p =>
+        '<div class="recent-post">' +
+          '<div class="rp-channel">' + p.channel + '</div>' +
+          '<div class="rp-title">' + (p.title || '(untitled)') + '</div>' +
+          '<div class="rp-date">' + p.date + '</div>' +
+        '</div>'
+      ).join('');
+      recentSection.classList.remove('hidden');
+    } catch (e) {
+      recentSection.classList.add('hidden');
+    }
+  }
+
+  // --- Post form submission ---
+  postForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    postBtn.disabled = true;
+    hideStatus(postStatus);
+
+    const channel = document.getElementById('channel').value;
+    const title = document.getElementById('title').value.trim();
+    const body = document.getElementById('body').value.trim();
+    const video = document.getElementById('video').value.trim() || null;
+    const linkUrl = document.getElementById('link-url').value.trim();
+    const linkLabel = document.getElementById('link-label').value.trim();
+
+    if (!body && !title) {
+      showStatus(postStatus, 'Need at least a title or body.', 'error');
+      postBtn.disabled = false;
+      return;
+    }
+
+    try {
+      // 1. Upload images
+      showStatus(postStatus, 'Uploading images...', 'info');
+      const imagePaths = [];
+      const files = Array.from(imagesInput.files);
+
+      for (let i = 0; i < files.length; i++) {
+        showStatus(postStatus, 'Uploading image ' + (i + 1) + ' of ' + files.length + '...', 'info');
+        const ts = Date.now();
+        const safeName = files[i].name.replace(/[^a-zA-Z0-9._-]/g, '_');
+        const filename = ts + '-' + safeName;
+        const base64 = await compressImage(files[i], 1600, 0.82);
+        const path = await uploadImage(channel, filename, base64);
+        imagePaths.push(path);
+      }
+
+      // 2. Fetch current posts
+      showStatus(postStatus, 'Saving post...', 'info');
+      const { content, sha } = await fetchPosts();
+
+      // 3. Build post object
+      const post = {
+        date: formatDate(new Date()),
+        title: title || null,
+        body: body || null,
+        images: imagePaths,
+        link: linkUrl ? { url: linkUrl, label: linkLabel || linkUrl } : null,
+        video: video
+      };
+
+      // 4. Prepend to channel
+      if (!content[channel]) content[channel] = [];
+      content[channel].unshift(post);
+
+      // 5. Commit
+      const msg = 'post: ' + channel + ' — ' + (title || 'untitled');
+      await commitPosts(content, sha, msg);
+
+      // 6. Done
+      showStatus(postStatus, 'Posted! Live in ~30 seconds.', 'success');
+
+      // Reset form
+      document.getElementById('title').value = '';
+      document.getElementById('body').value = '';
+      document.getElementById('video').value = '';
+      document.getElementById('link-url').value = '';
+      document.getElementById('link-label').value = '';
+      imagesInput.value = '';
+      imagePreviews.innerHTML = '';
+
+      // Refresh recent
+      loadRecent();
+
+    } catch (err) {
+      showStatus(postStatus, 'Error: ' + err.message, 'error');
+    }
+
+    postBtn.disabled = false;
+  });
+
+})();
+</script>
+
+</body>
+</html>
