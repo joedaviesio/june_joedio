@@ -84,12 +84,15 @@
     // Logo modal toggle
     const brand = document.getElementById('navBrand');
     const modal = document.getElementById('navModal');
+    const brandWrap = brand.parentElement;
     brand.addEventListener('click', (e) => {
       e.stopPropagation();
       modal.classList.toggle('open');
+      brandWrap.classList.toggle('portrait-open', modal.classList.contains('open'));
     });
     document.addEventListener('click', () => {
       modal.classList.remove('open');
+      brandWrap.classList.remove('portrait-open');
     });
     modal.addEventListener('click', (e) => e.stopPropagation());
 
