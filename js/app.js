@@ -8,10 +8,30 @@
   // --- Routing ---
   const CHANNELS = ['council', 'tech', 'political', 'memes'];
   const CHANNEL_META = {
-    council:   { label: 'Council',   icon: '&#9632;', tagline: 'Statements & screenshots from Tuam Street.' },
-    tech:      { label: 'Tech',      icon: '&#9678;', tagline: 'Builds, ships, and systems.' },
-    political: { label: 'Political', icon: '&#9650;', tagline: 'Thoughts on power, place, and policy.' },
-    memes:     { label: 'Memes',     icon: '&#9786;', tagline: 'Posting with intent.' }
+    council:   { label: 'Council',   icon: '&#9632;', tagline: 'Statements & screenshots from Tuam Street.',
+      subs: [
+        { label: 'Statements', href: '#' },
+        { label: 'Minutes',    href: '#' },
+        { label: 'Events',     href: '#' }
+      ]},
+    tech:      { label: 'Tech',      icon: '&#9678;', tagline: 'Builds, ships, and systems.',
+      subs: [
+        { label: 'Bowen',  href: 'https://bowenpublic.com' },
+        { label: 'Github', href: 'https://github.com/joedaviesio/' }
+      ]},
+    political: { label: 'Blog', icon: '&#9650;', tagline: 'Thoughts on power, place, and policy.',
+      subs: [
+        { label: 'Essays', href: '#political' }
+      ]},
+    memes:     { label: 'Memes',     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>', tagline: 'Posting with intent.',
+      subs: [
+        { label: 'YouTube',     href: 'https://www.youtube.com/channel/UCIOaxt6IOHVMJ5b88PIw3KQ' },
+        { label: 'iNaturalist', href: 'https://www.inaturalist.org/people/7621498' },
+        { label: 'Instagram',   href: 'https://www.instagram.com/pasadena.blanca/' },
+        { label: 'TikTok',      href: 'https://www.tiktok.com/@joedaviesio' },
+        { label: 'Facebook',    href: 'https://www.facebook.com/councillorjoedavies' },
+        { label: 'X',           href: 'https://x.com/pasadenablanca' }
+      ]}
   };
 
   let POSTS = {};
@@ -97,6 +117,7 @@
       const externalLinks = { council: 'https://ecan.govt.nz', tech: 'https://bowenpublic.com', memes: 'https://x.com/pasadenablanca' };
       const cardHref = externalLinks[ch] || `#${ch}`;
       const cardTarget = externalLinks[ch] ? ' target="_blank" rel="noopener"' : '';
+      html += `<div class="channel-planet" data-channel="${ch}">`;
       html += `<a href="${cardHref}"${cardTarget} class="channel-card channel-${ch}">`;
       html += `<div class="channel-card-icon">${meta.icon}</div>`;
       html += `<h2 class="channel-card-title">${meta.label}</h2>`;
@@ -111,6 +132,19 @@
         html += `<span class="channel-card-count">${posts.length} post${posts.length !== 1 ? 's' : ''}</span>`;
       }
       html += '</a>';
+
+      // Moon sub-options
+      if (meta.subs && meta.subs.length > 0) {
+        html += `<div class="moon-orbit moon-orbit-${meta.subs.length}">`;
+        meta.subs.forEach((sub, i) => {
+          const angle = (360 / meta.subs.length) * i;
+          const isExternal = sub.href.startsWith('http');
+          const moonTarget = isExternal ? ' target="_blank" rel="noopener"' : '';
+          html += `<a href="${sub.href}"${moonTarget} class="moon" style="--moon-angle: ${angle}deg"><span class="moon-label">${sub.label}</span></a>`;
+        });
+        html += '</div>';
+      }
+      html += '</div>';
     });
     html += '</div>';
 
@@ -130,6 +164,34 @@
     html += '</div>';
 
     main.innerHTML = html;
+
+    // Toggle moon sub-options on planet click
+    document.querySelectorAll('.channel-planet').forEach(planet => {
+      const card = planet.querySelector('.channel-card');
+      const orbit = planet.querySelector('.moon-orbit');
+      if (!orbit) return;
+
+      card.addEventListener('click', (e) => {
+        // Let council link through to ecan.govt.nz
+        if (planet.dataset.channel === 'council') return;
+        e.preventDefault();
+        e.stopPropagation();
+
+        // Close other open orbits
+        document.querySelectorAll('.moon-orbit.open').forEach(o => {
+          if (o !== orbit) o.classList.remove('open');
+        });
+        orbit.classList.toggle('open');
+      });
+    });
+
+    // Close moons when clicking outside
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.moon-orbit.open').forEach(o => o.classList.remove('open'));
+    });
+    document.querySelectorAll('.channel-planet').forEach(p => {
+      p.addEventListener('click', (e) => e.stopPropagation());
+    });
   }
 
   // --- Render Feed ---

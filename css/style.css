@@ -245,6 +245,14 @@ img {
 
 .nav-icon {
   font-size: 0.7rem;
+  line-height: 1;
+}
+
+.nav-icon svg {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav-toggle {
@@ -383,11 +391,15 @@ img {
   overflow: hidden;
 }
 
-/* Position each tile around the orbit */
-.channel-card:nth-child(1) { top: 0;    left: 50%;  transform: translate(-50%, 0); }
-.channel-card:nth-child(2) { top: 50%;  right: 0;   transform: translate(0, -50%); }
-.channel-card:nth-child(3) { bottom: 0; left: 50%;  transform: translate(-50%, 0); }
-.channel-card:nth-child(4) { top: 50%;  left: 0;    transform: translate(0, -50%); }
+/* Card is centered within its planet wrapper */
+.channel-planet .channel-card {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: none;
+}
 
 /* Counter-rotate content so text stays upright */
 .channel-card > * {
@@ -423,6 +435,17 @@ img {
   background: linear-gradient(135deg, #3f3247 0%, #422838 40%, rgba(243, 110, 98, 0.3) 100%);
 }
 
+/* --- Planet wrapper (holds card + moons) --- */
+
+.channel-planet {
+  position: absolute;
+}
+
+.channel-planet:nth-child(1) { top: 0;    left: 50%;  transform: translate(-50%, 0); }
+.channel-planet:nth-child(2) { top: 50%;  right: 0;   transform: translate(0, -50%); }
+.channel-planet:nth-child(3) { bottom: 0; left: 50%;  transform: translate(-50%, 0); }
+.channel-planet:nth-child(4) { top: 50%;  left: 0;    transform: translate(0, -50%); }
+
 .channel-card:hover {
   border-color: var(--gold);
   box-shadow: 0 12px 32px rgba(255, 193, 1, 0.2);
@@ -434,6 +457,13 @@ img {
   margin-bottom: 4px;
   opacity: 0.6;
   color: var(--white);
+  line-height: 1;
+}
+
+.channel-card-icon svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: block;
 }
 
 .channel-card-title {
@@ -468,6 +498,90 @@ img {
 
 .channel-card-count {
   display: none;
+}
+
+/* --- Moon Sub-options --- */
+
+.moon-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: moonSpin 20s linear infinite;
+}
+
+.moon-orbit.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@keyframes moonSpin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.moon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 44px;
+  height: 44px;
+  margin: -22px 0 0 -22px;
+  border-radius: 50%;
+  background: var(--purple);
+  border: 1px solid var(--gold-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  transform: rotate(var(--moon-angle)) translateX(100px) rotate(calc(-1 * var(--moon-angle)));
+}
+
+.moon:hover {
+  border-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(255, 193, 1, 0.3);
+  scale: 1.15;
+}
+
+.moon-label {
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  /* Counter-rotate against both moon orbit (20s) and main grid (60s) */
+  /* Combined: -360/20 + -360/60 = -18 - 6 = -24 deg/s = -1440 deg in 60s */
+  animation: moonLabelSteady 60s linear infinite;
+}
+
+@keyframes moonLabelSteady {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-1440deg); }
+}
+
+@media (max-width: 600px) {
+  .moon-orbit {
+    width: 150px;
+    height: 150px;
+  }
+
+  .moon {
+    width: 36px;
+    height: 36px;
+    margin: -18px 0 0 -18px;
+    transform: rotate(var(--moon-angle)) translateX(75px) rotate(calc(-1 * var(--moon-angle)));
+  }
+
+  .moon-label {
+    font-size: 0.4rem;
+  }
 }
 
 /* --- Socials --- */
