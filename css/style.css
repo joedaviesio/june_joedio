@@ -270,6 +270,24 @@ img {
   vertical-align: middle;
 }
 
+.nav-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--glass-light);
+  margin: 0 var(--space-xs);
+  flex-shrink: 0;
+}
+
+.nav-link-legacy {
+  font-size: 0.68rem !important;
+  opacity: 0.5;
+  letter-spacing: 0.5px !important;
+}
+
+.nav-link-legacy:hover {
+  opacity: 1;
+}
+
 .nav-toggle {
   display: none;
   background: none;
@@ -304,6 +322,17 @@ img {
   .nav-link {
     padding: var(--space-md);
     font-size: 0.9rem;
+  }
+
+  .nav-sep {
+    width: 100%;
+    height: 1px;
+    margin: var(--space-xs) 0;
+  }
+
+  .nav-link-legacy {
+    font-size: 0.78rem !important;
+    padding: var(--space-sm) var(--space-md);
   }
 }
 

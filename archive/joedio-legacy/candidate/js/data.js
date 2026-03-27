@@ -1,5 +1,5 @@
 let titles = {
-    prime_header: 'joeDAVIES.io',
+    prime_header: '',
     slogan: "audio, video & design.",
     sub1: 'news',
     sub2: 'policy',
@@ -20,9 +20,9 @@ let button_icon = {
 }
 
 let photos = {
-    landing: '/candidate/src/img/blog/2021-05-10-god-mountain.jpg',
-    bio_01: '/candidate/src/img/blog/2021-05-10-god-mountain.jpg',
-    bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
+    landing: 'candidate/src/img/blog/2021-05-10-god-mountain.jpg',
+    bio_01: 'candidate/src/img/blog/2021-05-10-god-mountain.jpg',
+    bio_02: 'candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
     bp: 'candidate/src/img/bio/bp_04-01.png',
     hip_hop: 'candidate/src/img/bio/hip_hop_instru-01.png',
     perry: 'candidate/src/img/blog/ryan_thumbnail.jpg',
@@ -156,7 +156,7 @@ let blog_4 = {
     title: '08 October 12:56',
     text: 'Otira scree.',
     blog_img_boolean: 'true',
-    blog_img_src: '/candidate/src/img/blog/2021-10-08-Otira-scree-b.JPG',
+    blog_img_src: 'candidate/src/img/blog/2021-10-08-Otira-scree-b.JPG',
     icon_type: blog_icon.type, 
     icon_title: pin_icon.title,
     icon_size: blog_icon.size
@@ -391,7 +391,7 @@ let blog_64 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62, blog_63, blog_64];
+let blog_total = [blog_9, blog_10, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_60, blog_59, blog_61, blog_62, blog_63];
 
 
 let youtube_icon = {
