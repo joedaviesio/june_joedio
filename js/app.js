@@ -17,6 +17,8 @@
     tech:      { label: 'Tech',      icon: '&#9678;', tagline: 'Builds, ships, and systems.',
       subs: [
         { label: 'Bowen',  href: 'https://bowenpublic.com' },
+        { label: 'Gobuga', href: 'https://gobuga.org' },
+        { label: 'Tirith', href: 'https://github.com/joedaviesio/tirith' },
         { label: 'Github', href: 'https://github.com/joedaviesio/' }
       ]},
     political: { label: 'Blog', icon: '&#9650;', tagline: 'Thoughts on power, place, and policy.',
@@ -75,7 +77,19 @@
     CHANNELS.forEach(ch => {
       const cls = ch === active ? 'nav-link active' : 'nav-link';
       const meta = CHANNEL_META[ch];
-      const navExternalLinks = { council: 'https://ecan.govt.nz', tech: 'https://bowenpublic.com', memes: 'https://x.com/pasadenablanca' };
+      const navExternalLinks = { council: 'https://ecan.govt.nz', tech: 'https://github.com/joedaviesio' };
+      if (ch === 'memes') {
+        html += `<div class="nav-dropdown" data-channel="${ch}">`;
+        html += `<button type="button" class="${cls} nav-dropdown-toggle"><span class="nav-icon">${meta.icon}</span>${meta.label}</button>`;
+        html += '<div class="nav-dropdown-menu">';
+        meta.subs.forEach(sub => {
+          const isExternal = sub.href.startsWith('http');
+          const t = isExternal ? ' target="_blank" rel="noopener"' : '';
+          html += `<a href="${sub.href}"${t} class="nav-dropdown-item">${sub.label}</a>`;
+        });
+        html += '</div></div>';
+        return;
+      }
       const navHref = navExternalLinks[ch] || `#${ch}`;
       const navTarget = navExternalLinks[ch] ? ' target="_blank" rel="noopener"' : '';
       html += `<a href="${navHref}"${navTarget} class="${cls}"><span class="nav-icon">${meta.icon}</span>${meta.label}</a>`;
@@ -101,6 +115,19 @@
     // Mobile toggle
     document.getElementById('navToggle').addEventListener('click', () => {
       document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // Nav dropdowns
+    document.querySelectorAll('.nav-dropdown').forEach(dd => {
+      const toggle = dd.querySelector('.nav-dropdown-toggle');
+      toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('.nav-dropdown.open').forEach(o => { if (o !== dd) o.classList.remove('open'); });
+        dd.classList.toggle('open');
+      });
+    });
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.nav-dropdown.open').forEach(o => o.classList.remove('open'));
     });
   }
 
