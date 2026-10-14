@@ -1,0 +1,71 @@
+# Learning in public: the AI Working Group's first meeting of the term
+
+On 30 September the Canterbury Regional Council's Artificial Intelligence Working Group met in the Council Chamber for the first time this triennium. It was open to the public, live-streamed, and over in 52 minutes. This is a report on what the group is, what happened, what we are sending up to Council, and where it goes next.
+
+I am also speaking about this work at the Christchurch AI Meetup on the 9th of November at EPIC. If you want to argue with any of it in person, come along.
+
+## What the group is
+
+In May this year the Regional Delivery Committee re-established it for 2025 to 2028. The vote was 6 to 4 with 3 abstentions. The members are Chair Deon Swiggs, Deputy Chair Cranwell and Cr Nick Ward, with me as Chair. It can meet up to four times a year.
+
+It cannot direct staff and it cannot spend money. Everything it wants done is written as a recommendation to the Regional Delivery Committee or the Council to resolve.
+
+It has no budget. The Committee removed the proposed $20,000 for external experts and replaced it with the ability to come back and ask. Every speaker presents by invitation, at no cost.
+
+It is public by default. Sessions are live-streamed and the recordings stay on the Council's YouTube channel. The terms of reference ask the group to "promote digital democracy through transparent and accessible discussions". The format is the point. A council working out how to use AI should do that in front of the people whose data it holds.
+
+Seven councillors did not vote for the group. The way to earn the mandate back is concrete outputs, no cost and no burden on staff, meeting by meeting.
+
+## What happened on 30 September
+
+**Staff briefed us on the Council's AI strategy.** Giles Southwell, Director Corporate and Public Transport Services, and Ian Campion, Chief Technology Officer, presented the strategy. The deck we were sent was marked Draft v0.5. At the meeting staff told us the executive team had since approved it. It is now the organisation's strategy.
+
+The shape of it: AI is treated as an extension of the existing data and information work. There is no separate AI team, no separate governance structure, and no separate approval process for AI investment. The aim is to go forward responsibly rather than at the leading edge, with controls from day one and staff capability as the first priority. The principles come from central government guidance, which is guidance only and not binding on councils. The roadmap starts with capability, platform and guardrails.
+
+Staff were candid on cost. Right now AI adds cost, because licences are being bought and the productivity gain has not yet been turned into savings. Success will not be measured by how much AI is deployed.
+
+Questions from the room covered contract terms, alignment with the other Canterbury councils, who gets to see the results of pilots, the cost of cyber security against AI-enabled attack, and whether councillors as well as staff will get consistent, guard-railed tools. Chair Swiggs made the point that the strategy exists to deliver better outcomes, so the Regional Delivery Committee should have sight of it rather than it being boxed into an audit and risk conversation. 
+
+**AI and the reform transition.** Cr Faulkner asked for this item. Local government in Canterbury is heading into reorganisation, and the question was whether anyone is looking at AI across the whole system rather than council by council. I put three points: anchor on functions rather than structures, because the public needs the functions to keep working; systems and data that do not connect are the hard part of any merger; and open standards let whatever the councils build separately be joined up later.
+
+Cr Davis raised the risk of every territorial authority buying its own AI strategy. Chair Swiggs proposed a better first step than the discussion paper on the agenda: ask the Mayoral Forum's chief executives group what it is doing and planning, since chief executives will lead this before governors do. That carried.
+
+**Global landscape.** I gave a short briefing on where the technology and the regulation are, and put four planning assumptions to the group:
+
+1. Capability keeps rising and cost keeps falling. Settle the rules and principles and stay flexible on the product.
+2. Staff and the public are already using it. Submissions, consent applications and official information requests will increasingly be written with AI.
+3. No rulebook is coming from Wellington. Guidance, yes. Law, no.
+4. Data is the asset. Few people in the community understand how much data the Council holds on telemetry, contamination, groundwater and surface water.
+
+The group received the briefing and asked for a landscape update at every meeting.
+
+**Canterbury Maps.** Canterbury Maps is a mature, trusted, region-wide data asset shared with the territorial authorities. It is a natural early candidate for AI: plain-language questions from the public, assisted curation for staff, and data published in a form other systems can read. Private well data would stay out.
+
+The agenda proposed recommending a funding pathway in the next Long-Term Plan. Chair Swiggs was uneasy about recommending funding before the group has had a briefing or asked staff whether there is a resourcing problem at all. That was right, so the funding recommendation was dropped. Cr Robinson described combining Canterbury Maps data with AI modelling to compare the Council's nitrate evidence with citizen-science results, and suggested the audit and risk committee's independent members look at the data security side.
+
+## What goes up to Council
+
+The Working Group reports to the Regional Delivery Committee. The report from this meeting asks the Committee to:
+
+1. Receive the report of the meeting.
+2. Write to the chief executives group of the Canterbury Mayoral Forum asking what work is under way or planned on a systems approach to AI through the reform transition.
+3. Request a briefing on Canterbury Maps and AI, covering what is already under way, the options, and what they would cost.
+4. Note that the 2025 group met twice and never reported, and treat this report as closing that record.
+
+Plus the observation about how the Committee keeps sight of the strategy's delivery.
+
+Four resolutions, all without dissent, in under an hour, at no cost. That is the template.
+
+## What I took from it
+
+The most useful thing in the room was the candour on cost. An organisation saying out loud that AI currently costs it money and has not yet paid for itself is more credible than one claiming transformation.
+
+The second was the reframe on reform. The instinct of a working group is to write a paper. The better move was to ask the people who will actually run the merger what they are planning, and only write the paper if the answer is nothing.
+
+The third is structural. There is now a Council AI strategy, a risk committee receiving updates on it, a delivery committee that wants sight of it, and an executive team that approved it. Nobody has yet drawn the lines between them. I undertook to find out how they connect, and that will be in the next report.
+
+## Next
+
+The group aims to meet again before Christmas. Māori data sovereignty is the candidate topic. Staff flagged it twice during establishment and the group has not covered it yet. Te Kāhui Raraunga published a Māori AI Governance Framework last October calling for a public algorithm registry and independent monitoring, and that is where the conversation should start.
+
+The full recording is below. Every agenda, set of minutes and report the group produces is a public document.
